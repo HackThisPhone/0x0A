@@ -1,5 +1,5 @@
 # 0x0A
-The 0x0A Smartphone is an open-source, open-hardware smartphone. Repairable, customizable, and fully yours, the 0x0A phone gives you the power. 
+The 0x0A Smartphone is an open-source, open-hardware smartphone. Repairable, customizable, and fully yours, the 0x0A phone gives the power back to you! 
 
 ## Features:
 
