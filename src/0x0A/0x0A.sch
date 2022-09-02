@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "0x0A SmartPhone"
 Date "2022-09-01"
 Rev "1"
@@ -550,4 +550,10 @@ Wire Notes Line
 	6300 450  6300 3500
 Wire Notes Line
 	6300 3500 16100 3500
+$Sheet
+S 18800 4600 800  550 
+U 64C63980
+F0 "Sensors" 50
+F1 "sensors.sch" 50
+$EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 11
+Sheet 9 12
 Title "0x0A SmartPhone"
 Date "2022-09-01"
 Rev "1"
