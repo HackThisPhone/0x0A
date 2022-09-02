@@ -3,103 +3,16 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title "0x0A SmartPhone"
 Date "2022-09-01"
 Rev "1"
 Comp "HackThisPhone.com"
-Comment1 ""
+Comment1 "Designed By @NoahGWood for"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L SC600Y:SC600Y U?
-U 1 1 630E89B6
-P 3750 4950
-F 0 "U?" H 3750 6717 50  0000 C CNN
-F 1 "SC600Y" H 3750 6626 50  0000 C CNN
-F 2 "XCVR_SC600Y" H 3750 4950 50  0001 L BNN
-F 3 "" H 3750 4950 50  0001 L BNN
-F 4 "Quectel" H 3750 4950 50  0001 L BNN "MANUFACTURER"
-F 5 "N/A" H 3750 4950 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "Manufacturer Recommendations" H 3750 4950 50  0001 L BNN "STANDARD"
-F 7 "N/A" H 3750 4950 50  0001 L BNN "PARTREV"
-	1    3750 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L SC600Y:SC600Y U?
-U 2 1 630ECD07
-P 8950 7150
-F 0 "U?" H 8950 9717 50  0000 C CNN
-F 1 "SC600Y" H 8950 9626 50  0000 C CNN
-F 2 "XCVR_SC600Y" H 8950 7150 50  0001 L BNN
-F 3 "" H 8950 7150 50  0001 L BNN
-F 4 "Quectel" H 8950 7150 50  0001 L BNN "MANUFACTURER"
-F 5 "N/A" H 8950 7150 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "Manufacturer Recommendations" H 8950 7150 50  0001 L BNN "STANDARD"
-F 7 "N/A" H 8950 7150 50  0001 L BNN "PARTREV"
-	2    8950 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L SC600Y:SC600Y U?
-U 3 1 630F06D3
-P 13700 6900
-F 0 "U?" H 13700 7567 50  0000 C CNN
-F 1 "SC600Y" H 13700 7476 50  0000 C CNN
-F 2 "XCVR_SC600Y" H 13700 6900 50  0001 L BNN
-F 3 "" H 13700 6900 50  0001 L BNN
-F 4 "Quectel" H 13700 6900 50  0001 L BNN "MANUFACTURER"
-F 5 "N/A" H 13700 6900 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "Manufacturer Recommendations" H 13700 6900 50  0001 L BNN "STANDARD"
-F 7 "N/A" H 13700 6900 50  0001 L BNN "PARTREV"
-	3    13700 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L SC600Y:SC600Y U?
-U 4 1 630F89A4
-P 13050 5100
-F 0 "U?" H 13380 5146 50  0000 L CNN
-F 1 "SC600Y" H 13380 5055 50  0000 L CNN
-F 2 "XCVR_SC600Y" H 13050 5100 50  0001 L BNN
-F 3 "" H 13050 5100 50  0001 L BNN
-F 4 "Quectel" H 13050 5100 50  0001 L BNN "MANUFACTURER"
-F 5 "N/A" H 13050 5100 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "Manufacturer Recommendations" H 13050 5100 50  0001 L BNN "STANDARD"
-F 7 "N/A" H 13050 5100 50  0001 L BNN "PARTREV"
-	4    13050 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SC600Y:SC600Y U?
-U 5 1 63108B72
-P 3900 7950
-F 0 "U?" H 3957 8717 50  0000 C CNN
-F 1 "SC600Y" H 3957 8626 50  0000 C CNN
-F 2 "XCVR_SC600Y" H 3900 7950 50  0001 L BNN
-F 3 "" H 3900 7950 50  0001 L BNN
-F 4 "Quectel" H 3900 7950 50  0001 L BNN "MANUFACTURER"
-F 5 "N/A" H 3900 7950 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "Manufacturer Recommendations" H 3900 7950 50  0001 L BNN "STANDARD"
-F 7 "N/A" H 3900 7950 50  0001 L BNN "PARTREV"
-	5    3900 7950
-	1    0    0    -1  
-$EndComp
-$Sheet
-S 17450 5350 600  850 
-U 63192803
-F0 "USB" 50
-F1 "usb.sch" 50
-F2 "USB_VBUS" I L 17450 5550 50 
-F3 "D1+" I L 17450 5800 50 
-F4 "D2+" I L 17450 5900 50 
-F5 "D2-" I L 17450 6000 50 
-F6 "D1-" I L 17450 6100 50 
-F7 "USB_OPT" I L 17450 5450 50 
-$EndSheet
 $Sheet
 S 17500 6750 1450 750 
 U 6328377E
@@ -169,10 +82,10 @@ BAT_THERM
 Text Label 7650 1300 2    50   ~ 0
 VRTC
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 63493DF2
 P 4400 8450
-F 0 "#PWR?" H 4400 8200 50  0001 C CNN
+F 0 "#PWR0101" H 4400 8200 50  0001 C CNN
 F 1 "GND" H 4405 8277 50  0000 C CNN
 F 2 "" H 4400 8450 50  0001 C CNN
 F 3 "" H 4400 8450 50  0001 C CNN
@@ -197,9 +110,6 @@ Text Label 9500 1250 0    50   ~ 0
 USIM1_DET
 Text Label 7850 5550 2    50   ~ 0
 VRTC
-NoConn ~ 10050 9350
-NoConn ~ 10050 9250
-NoConn ~ 10050 9150
 Text Label 7850 4850 2    50   ~ 0
 1.8V_GPIO
 Text Label 9500 1800 0    50   ~ 0
@@ -218,19 +128,8 @@ Text Label 7850 5350 2    50   ~ 0
 2.8V_AVDD
 Text Label 10050 7850 0    50   ~ 0
 MIC_BIAS
-Text Label 17450 5550 2    50   ~ 0
+Text Label 17500 5750 2    50   ~ 0
 USB_VBUS
-Text Label 17450 5800 2    50   ~ 0
-D1+
-Text Label 17450 6100 2    50   ~ 0
-D1-
-Text Label 17450 5450 2    50   ~ 0
-USB_OPT
-NoConn ~ 10050 8350
-NoConn ~ 10050 8450
-NoConn ~ 10050 8550
-NoConn ~ 17450 5900
-NoConn ~ 17450 6000
 Text Label 7850 6350 2    50   ~ 0
 BAT_THERM
 NoConn ~ 7850 5650
@@ -295,25 +194,25 @@ TP0_I2C_SCL
 Text Label 11500 2600 2    50   ~ 0
 TP0_I2C_SDA
 NoConn ~ 7850 6250
-Text Label 4650 3450 0    50   ~ 0
+Text Label 3150 4600 0    50   ~ 0
 DSI0_CLKP
-Text Label 4650 3550 0    50   ~ 0
+Text Label 3150 4700 0    50   ~ 0
 DSI0_CLKN
-Text Label 4650 3650 0    50   ~ 0
+Text Label 3150 4800 0    50   ~ 0
 DSI0_D0P
-Text Label 4650 3750 0    50   ~ 0
+Text Label 3150 4900 0    50   ~ 0
 DSI0_D0N
-Text Label 4650 3850 0    50   ~ 0
+Text Label 3150 5000 0    50   ~ 0
 DSI0_D1P
-Text Label 4650 3950 0    50   ~ 0
+Text Label 3150 5100 0    50   ~ 0
 DSI0_D1N
-Text Label 4650 4050 0    50   ~ 0
+Text Label 3150 5200 0    50   ~ 0
 DSI0_D2P
-Text Label 4650 4150 0    50   ~ 0
+Text Label 3150 5300 0    50   ~ 0
 DSI0_D2N
-Text Label 4650 4250 0    50   ~ 0
+Text Label 3150 5400 0    50   ~ 0
 DSI0_D3P
-Text Label 4650 4350 0    50   ~ 0
+Text Label 3150 5500 0    50   ~ 0
 DSI0_D3N
 Text Label 12450 1850 0    50   ~ 0
 DSI0_CLKP
@@ -427,25 +326,25 @@ Text Label 14050 2250 2    50   ~ 0
 LCD1_RST
 Text Label 14050 1850 2    50   ~ 0
 LCD1_ID
-Text Label 4650 4550 0    50   ~ 0
+Text Label 3150 5700 0    50   ~ 0
 DSI1_CLKP
-Text Label 4650 4650 0    50   ~ 0
+Text Label 3150 5800 0    50   ~ 0
 DSI1_CLKN
-Text Label 4650 4750 0    50   ~ 0
+Text Label 3150 5900 0    50   ~ 0
 DSI1_D0P
-Text Label 4650 4850 0    50   ~ 0
+Text Label 3150 6000 0    50   ~ 0
 DSI1_D0N
-Text Label 4650 4950 0    50   ~ 0
+Text Label 3150 6100 0    50   ~ 0
 DSI1_D1P
-Text Label 4650 5050 0    50   ~ 0
+Text Label 3150 6200 0    50   ~ 0
 DSI1_D1N
-Text Label 4650 5150 0    50   ~ 0
+Text Label 3150 6300 0    50   ~ 0
 DSI1_D2P
-Text Label 4650 5250 0    50   ~ 0
+Text Label 3150 6400 0    50   ~ 0
 DSI1_D2N
-Text Label 4650 5350 0    50   ~ 0
+Text Label 3150 6500 0    50   ~ 0
 DSI1_D3P
-Text Label 4650 5450 0    50   ~ 0
+Text Label 3150 6600 0    50   ~ 0
 DSI1_D3N
 Text Label 7850 6050 2    50   ~ 0
 LCD_BL_K2
@@ -536,8 +435,6 @@ Text GLabel 10550 9550 2    98   Input ~ 0
 USB_VBUS
 Wire Wire Line
 	10550 9550 10050 9550
-Wire Wire Line
-	7050 6750 7850 6750
 Text Notes 6100 6650 0    50   ~ 0
 This pin is not "SDC2",\nor at least it shouldn't be...
 Text Notes 13650 1050 2    197  ~ 0
@@ -548,10 +445,415 @@ Text Notes 9000 950  2    197  ~ 0
 Core
 Wire Notes Line
 	6300 450  6300 3500
-Wire Notes Line
-	6300 3500 16100 3500
 $Sheet
-S 18800 4600 800  550 
+S 17500 5550 1100 800 
+U 63192803
+F0 "USB" 50
+F1 "usb.sch" 50
+F2 "USB_VBUS" I L 17500 5750 50 
+F3 "USB_D-" I L 17500 5950 50 
+F4 "USB_D+" I L 17500 6050 50 
+F5 "USB_CC1" I L 17500 6150 50 
+F6 "USB_CC2" I L 17500 6250 50 
+F7 "USB_SS_TX_P" I R 18600 5800 50 
+F8 "USB_SS_RX_P" I R 18600 6000 50 
+F9 "USB_SS_RX_M" I R 18600 6100 50 
+F10 "USB_SS_SEL" I R 18600 5700 50 
+F11 "USB_SS_TX_M" I R 18600 5900 50 
+$EndSheet
+Text Label 17500 5950 2    50   ~ 0
+USB_D-
+Text Label 17500 6050 2    50   ~ 0
+USB_D+
+Text Label 17500 6150 2    50   ~ 0
+USB_CC1
+Text Label 17500 6250 2    50   ~ 0
+USB_CC2
+Text Label 18600 6100 0    50   ~ 0
+USB_SS_RX_M
+Text Label 18600 6000 0    50   ~ 0
+USB_SS_RX_P
+Text Label 18600 5900 0    50   ~ 0
+USB_SS_TX_M
+Text Label 18600 5800 0    50   ~ 0
+USB_SS_TX_P
+Text Label 18600 5700 0    50   ~ 0
+USB_SS_SEL
+Text Label 14800 7000 0    50   ~ 0
+USB_SS_RX_M
+Text Label 14800 6900 0    50   ~ 0
+USB_SS_RX_P
+Text Label 14800 7200 0    50   ~ 0
+USB_SS_TX_M
+Text Label 14800 7100 0    50   ~ 0
+USB_SS_TX_P
+Text Label 10050 8550 0    50   ~ 0
+USB_SS_SEL
+Text Label 7850 6650 2    50   ~ 0
+USB_D-
+Text Label 7850 6550 2    50   ~ 0
+USB_D+
+Text Label 10050 8350 0    50   ~ 0
+USB_CC1
+Text Label 10050 8450 0    50   ~ 0
+USB_CC2
+NoConn ~ 10050 8250
+Text Notes 10750 8450 0    50   ~ 0
+USB_OPT only needed for \nUSB micro, leave floating\nfor USB-C
+Wire Notes Line
+	10100 8250 10700 8250
+Wire Notes Line
+	10700 8200 11750 8200
+Wire Notes Line
+	11750 8200 11750 8500
+Wire Notes Line
+	11750 8500 10700 8500
+Wire Notes Line
+	10700 8200 10700 8500
+Wire Notes Line
+	6050 6450 7200 6450
+Wire Notes Line
+	7200 6450 7200 6750
+Wire Notes Line
+	6050 6750 7200 6750
+Wire Notes Line
+	6050 6450 6050 6750
+Text Notes 6450 9250 0    50   ~ 0
+Not using active GPS
+Wire Notes Line
+	6450 9150 6450 9250
+Wire Notes Line
+	6450 9250 7850 9250
+Wire Notes Line
+	7300 9250 7300 9150
+Wire Notes Line
+	7300 9150 6450 9150
+$Comp
+L SC600YNAPAE53UGADA:SC600YNAPAE53UGADA U?
+U 1 1 6312657C
+P 2250 6100
+F 0 "U?" H 2250 7867 50  0000 C CNN
+F 1 "SC600YNAPAE53UGADA" H 2250 7776 50  0000 C CNN
+F 2 "SnapEDA Library:XCVR_SC600YNAPAE53UGADA" H 2250 6100 50  0001 L BNN
+F 3 "" H 2250 6100 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/SC600YNAPAE53UGADA/?ref=eda" H 2250 6100 50  0001 L BNN "Purchase-URL"
+F 5 "Quectel" H 2250 6100 50  0001 L BNN "MF"
+F 6 "None" H 2250 6100 50  0001 L BNN "Price"
+F 7 "SC600YNAPAE53UGADA" H 2250 6100 50  0001 L BNN "MP"
+F 8 "Based on Qualcomm octa-core and 64-bit high-performance processors with built-in Adreno 506 GPU, SC600YNAPAE53UGADA is designed to support leading performance, various multimedia features, Edge Computing Hardware and Quick Charge 3.0 technology." H 2250 6100 50  0001 L BNN "Description"
+F 9 "In Stock" H 2250 6100 50  0001 L BNN "Availability"
+F 10 "Custom Quectel" H 2250 6100 50  0001 L BNN "Package"
+	1    2250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SC600YNAPAE53UGADA:SC600YNAPAE53UGADA U?
+U 2 1 6314AB8A
+P 8950 7150
+F 0 "U?" H 8950 9717 50  0000 C CNN
+F 1 "SC600YNAPAE53UGADA" H 8950 9626 50  0000 C CNN
+F 2 "SnapEDA Library:XCVR_SC600YNAPAE53UGADA" H 8950 7150 50  0001 L BNN
+F 3 "" H 8950 7150 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/SC600YNAPAE53UGADA/?ref=eda" H 8950 7150 50  0001 L BNN "Purchase-URL"
+F 5 "Quectel" H 8950 7150 50  0001 L BNN "MF"
+F 6 "None" H 8950 7150 50  0001 L BNN "Price"
+F 7 "SC600YNAPAE53UGADA" H 8950 7150 50  0001 L BNN "MP"
+F 8 "Based on Qualcomm octa-core and 64-bit high-performance processors with built-in Adreno 506 GPU, SC600YNAPAE53UGADA is designed to support leading performance, various multimedia features, Edge Computing Hardware and Quick Charge 3.0 technology." H 8950 7150 50  0001 L BNN "Description"
+F 9 "In Stock" H 8950 7150 50  0001 L BNN "Availability"
+F 10 "Custom Quectel" H 8950 7150 50  0001 L BNN "Package"
+	2    8950 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SC600YNAPAE53UGADA:SC600YNAPAE53UGADA U?
+U 3 1 63203984
+P 13700 6900
+F 0 "U?" H 13700 7567 50  0000 C CNN
+F 1 "SC600YNAPAE53UGADA" H 13700 7476 50  0000 C CNN
+F 2 "SnapEDA Library:XCVR_SC600YNAPAE53UGADA" H 13700 6900 50  0001 L BNN
+F 3 "" H 13700 6900 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/SC600YNAPAE53UGADA/?ref=eda" H 13700 6900 50  0001 L BNN "Purchase-URL"
+F 5 "Quectel" H 13700 6900 50  0001 L BNN "MF"
+F 6 "None" H 13700 6900 50  0001 L BNN "Price"
+F 7 "SC600YNAPAE53UGADA" H 13700 6900 50  0001 L BNN "MP"
+F 8 "Based on Qualcomm octa-core and 64-bit high-performance processors with built-in Adreno 506 GPU, SC600YNAPAE53UGADA is designed to support leading performance, various multimedia features, Edge Computing Hardware and Quick Charge 3.0 technology." H 13700 6900 50  0001 L BNN "Description"
+F 9 "In Stock" H 13700 6900 50  0001 L BNN "Availability"
+F 10 "Custom Quectel" H 13700 6900 50  0001 L BNN "Package"
+	3    13700 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SC600YNAPAE53UGADA:SC600YNAPAE53UGADA U?
+U 4 1 632374DF
+P 12700 4400
+F 0 "U?" H 13030 4446 50  0000 L CNN
+F 1 "SC600YNAPAE53UGADA" H 13030 4355 50  0000 L CNN
+F 2 "SnapEDA Library:XCVR_SC600YNAPAE53UGADA" H 12700 4400 50  0001 L BNN
+F 3 "" H 12700 4400 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/SC600YNAPAE53UGADA/?ref=eda" H 12700 4400 50  0001 L BNN "Purchase-URL"
+F 5 "Quectel" H 12700 4400 50  0001 L BNN "MF"
+F 6 "None" H 12700 4400 50  0001 L BNN "Price"
+F 7 "SC600YNAPAE53UGADA" H 12700 4400 50  0001 L BNN "MP"
+F 8 "Based on Qualcomm octa-core and 64-bit high-performance processors with built-in Adreno 506 GPU, SC600YNAPAE53UGADA is designed to support leading performance, various multimedia features, Edge Computing Hardware and Quick Charge 3.0 technology." H 12700 4400 50  0001 L BNN "Description"
+F 9 "In Stock" H 12700 4400 50  0001 L BNN "Availability"
+F 10 "Custom Quectel" H 12700 4400 50  0001 L BNN "Package"
+	4    12700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SC600YNAPAE53UGADA:SC600YNAPAE53UGADA U?
+U 5 1 63239ACF
+P 3900 7950
+F 0 "U?" H 3957 8717 50  0000 C CNN
+F 1 "SC600YNAPAE53UGADA" H 3957 8626 50  0000 C CNN
+F 2 "SnapEDA Library:XCVR_SC600YNAPAE53UGADA" H 3900 7950 50  0001 L BNN
+F 3 "" H 3900 7950 50  0001 L BNN
+F 4 "https://pricing.snapeda.com/search/part/SC600YNAPAE53UGADA/?ref=eda" H 3900 7950 50  0001 L BNN "Purchase-URL"
+F 5 "Quectel" H 3900 7950 50  0001 L BNN "MF"
+F 6 "None" H 3900 7950 50  0001 L BNN "Price"
+F 7 "SC600YNAPAE53UGADA" H 3900 7950 50  0001 L BNN "MP"
+F 8 "Based on Qualcomm octa-core and 64-bit high-performance processors with built-in Adreno 506 GPU, SC600YNAPAE53UGADA is designed to support leading performance, various multimedia features, Edge Computing Hardware and Quick Charge 3.0 technology." H 3900 7950 50  0001 L BNN "Description"
+F 9 "In Stock" H 3900 7950 50  0001 L BNN "Availability"
+F 10 "Custom Quectel" H 3900 7950 50  0001 L BNN "Package"
+	5    3900 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 6750 7850 6750
+Text Label 10050 9150 0    50   ~ 0
+USIM2_RST
+Text Label 10050 9250 0    50   ~ 0
+USIM2_CLK
+Text Label 10050 9350 0    50   ~ 0
+USIM_DATA
+Text Label 3450 1550 2    50   ~ 0
+FRONT_RESET
+Text Label 3450 1650 2    50   ~ 0
+FRONT_PWDN
+Text Label 3450 1750 2    50   ~ 0
+FRONT_MCLK
+Text Label 3450 2050 2    50   ~ 0
+FRONT_LN0_P
+Text Label 3450 2150 2    50   ~ 0
+FRONT_LN0_N
+Text Label 3450 2250 2    50   ~ 0
+FRONT_LN1_P
+Text Label 3450 2350 2    50   ~ 0
+FRONT_LN1_N
+Text Label 3450 2450 2    50   ~ 0
+FRONT_LN2_P
+Text Label 3450 2550 2    50   ~ 0
+FRONT_LN2_N
+Text Label 3450 2850 2    50   ~ 0
+FRONT_CLK_P
+Text Label 3450 2950 2    50   ~ 0
+FRONT_CLK_N
+Text Label 5400 1550 0    50   ~ 0
+REAR_RESET
+Text Label 5400 1650 0    50   ~ 0
+REAR_PWDN
+Text Label 5400 1750 0    50   ~ 0
+REAR_MCLK
+Text Label 5400 2050 0    50   ~ 0
+REAR_LN0_P
+Text Label 5400 2150 0    50   ~ 0
+REAR_LN0_N
+Text Label 5400 2250 0    50   ~ 0
+REAR_LN1_P
+Text Label 5400 2350 0    50   ~ 0
+REAR_LN1_N
+Text Label 5400 2450 0    50   ~ 0
+REAR_LN2_P
+Text Label 5400 2550 0    50   ~ 0
+REAR_LN2_N
+Text Label 5400 2850 0    50   ~ 0
+REAR_CLK_P
+Text Label 5400 2950 0    50   ~ 0
+REAR_CLK_N
+Text Notes 5250 950  2    197  ~ 0
+Cameras
+Wire Notes Line
+	2700 3500 2700 500 
+Text Label 7850 9050 2    50   ~ 0
+REAR_RESET
+Text Label 7850 8950 2    50   ~ 0
+REAR_PWDN
+Text Label 10050 7050 0    50   ~ 0
+REAR_MCLK
+Text Label 1350 5900 2    50   ~ 0
+REAR_LN0_P
+Text Label 1350 6000 2    50   ~ 0
+REAR_LN0_N
+Text Label 1350 6100 2    50   ~ 0
+REAR_LN1_P
+Text Label 1350 6200 2    50   ~ 0
+REAR_LN1_N
+Text Label 1350 6300 2    50   ~ 0
+REAR_LN2_P
+Text Label 1350 6400 2    50   ~ 0
+REAR_LN2_N
+Text Label 1350 5700 2    50   ~ 0
+REAR_CLK_P
+Text Label 1350 5800 2    50   ~ 0
+REAR_CLK_N
+$Sheet
+S 3450 1250 1950 2100
+U 631E2A0C
+F0 "Cameras" 50
+F1 "cameras.sch" 50
+F2 "FRONT_LN0_P" I L 3450 2050 50 
+F3 "FRONT_LN0_N" I L 3450 2150 50 
+F4 "FRONT_LN1_P" I L 3450 2350 50 
+F5 "FRONT_LN1_N" I L 3450 2250 50 
+F6 "FRONT_I2C_SDA" I L 3450 1350 50 
+F7 "FRONT_I2C_SCL" I L 3450 1450 50 
+F8 "FRONT_RESET" I L 3450 1550 50 
+F9 "FRONT_PWDN" I L 3450 1650 50 
+F10 "FRONT_MCLK" I L 3450 1750 50 
+F11 "FRONT_LN2_P" I L 3450 2450 50 
+F12 "FRONT_LN2_N" I L 3450 2550 50 
+F13 "REAR_LN1_P" I R 5400 2350 50 
+F14 "REAR_LN1_N" I R 5400 2250 50 
+F15 "REAR_I2C_SDA" I R 5400 1350 50 
+F16 "REAR_I2C_SCL" I R 5400 1450 50 
+F17 "REAR_RESET" I R 5400 1550 50 
+F18 "REAR_LN0_P" I R 5400 2050 50 
+F19 "REAR_LN0_N" I R 5400 2150 50 
+F20 "REAR_PWDN" I R 5400 1650 50 
+F21 "REAR_MCLK" I R 5400 1750 50 
+F22 "REAR_LN2_P" I R 5400 2450 50 
+F23 "REAR_LN2_N" I R 5400 2550 50 
+F24 "FRONT_CLK_P" I L 3450 2850 50 
+F25 "FRONT_CLK_N" I L 3450 2950 50 
+F26 "REAR_CLK_P" I R 5400 2850 50 
+F27 "REAR_CLK_N" I R 5400 2950 50 
+F28 "FRONT_LN3_P" I L 3450 2650 50 
+F29 "FRONT_LN3_N" I L 3450 2750 50 
+F30 "REAR_LN3_P" I R 5400 2650 50 
+F31 "REAR_LN3_N" I R 5400 2750 50 
+F32 "LDO6_1V8" I R 5400 3100 50 
+F33 "LDO_1V2" I R 5400 3200 50 
+F34 "AVDD_2V8" I L 3450 3100 50 
+F35 "AFVDD_2V8" I L 3450 3200 50 
+$EndSheet
+Text Label 5400 2650 0    50   ~ 0
+REAR_LN3_P
+Text Label 5400 2750 0    50   ~ 0
+REAR_LN3_N
+Text Label 3450 2650 2    50   ~ 0
+FRONT_LN3_P
+Text Label 3450 2750 2    50   ~ 0
+FRONT_LN3_N
+Text Label 1350 6500 2    50   ~ 0
+REAR_LN3_P
+Text Label 1350 6600 2    50   ~ 0
+REAR_LN3_N
+Text Label 1350 4800 2    50   ~ 0
+FRONT_LN0_P
+Text Label 1350 4900 2    50   ~ 0
+FRONT_LN0_N
+Text Label 1350 5000 2    50   ~ 0
+FRONT_LN1_P
+Text Label 1350 5100 2    50   ~ 0
+FRONT_LN1_N
+Text Label 1350 5200 2    50   ~ 0
+FRONT_LN2_P
+Text Label 1350 5300 2    50   ~ 0
+FRONT_LN2_N
+Text Label 1350 4600 2    50   ~ 0
+FRONT_CLK_P
+Text Label 1350 4700 2    50   ~ 0
+FRONT_CLK_N
+Text Label 1350 5400 2    50   ~ 0
+FRONT_LN3_P
+Text Label 1350 5500 2    50   ~ 0
+FRONT_LN3_N
+NoConn ~ 1350 6800
+NoConn ~ 1350 6900
+NoConn ~ 1350 7000
+NoConn ~ 1350 7100
+NoConn ~ 1350 7200
+NoConn ~ 1350 7300
+NoConn ~ 1350 7400
+NoConn ~ 1350 7500
+NoConn ~ 1350 7600
+NoConn ~ 1350 7700
+Text Label 12600 6600 2    50   ~ 0
+CAM_I2C_SDA
+Text Label 12600 6500 2    50   ~ 0
+CAM_I2C_SCL
+Text Label 7850 8850 2    50   ~ 0
+FRONT_RESET
+Text Label 7850 8750 2    50   ~ 0
+FRONT_PWDN
+Text Label 10050 7150 0    50   ~ 0
+FRONT_MCLK
+Text Label 3450 1350 2    50   ~ 0
+CAM_I2C_SDA
+Text Label 3450 1450 2    50   ~ 0
+CAM_I2C_SCL
+Text Label 5400 1350 0    50   ~ 0
+CAM_I2C_SDA
+Text Label 5400 1450 0    50   ~ 0
+CAM_I2C_SCL
+NoConn ~ 12600 6700
+NoConn ~ 12600 6800
+Text Notes 2200 950  2    197  ~ 0
+Flashlight
+$Comp
+L Device:LED D?
+U 1 1 637065C9
+P 1500 1900
+F 0 "D?" H 1493 1645 50  0000 C CNN
+F 1 "LED" H 1493 1736 50  0000 C CNN
+F 2 "" H 1500 1900 50  0001 C CNN
+F 3 "~" H 1500 1900 50  0001 C CNN
+	1    1500 1900
+	-1   0    0    1   
+$EndComp
+Text Label 1350 1900 2    50   ~ 0
+FLASH_LED1
+$Comp
+L power:GND #PWR0168
+U 1 1 63707504
+P 1950 2500
+F 0 "#PWR0168" H 1950 2250 50  0001 C CNN
+F 1 "GND" H 1955 2327 50  0000 C CNN
+F 2 "" H 1950 2500 50  0001 C CNN
+F 3 "" H 1950 2500 50  0001 C CNN
+	1    1950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1900 1650 1900
+Wire Notes Line
+	500  3500 500  3550
+Wire Notes Line
+	500  3500 16100 3500
+Text Label 10050 9450 0    50   ~ 0
+FLASH_LED1
+Wire Wire Line
+	1950 1900 1950 2100
+$Comp
+L Device:R_Small_US R?
+U 1 1 6392CFC8
+P 1950 2200
+F 0 "R?" H 2018 2246 50  0000 L CNN
+F 1 "0R" H 2018 2155 50  0000 L CNN
+F 2 "" H 1950 2200 50  0001 C CNN
+F 3 "~" H 1950 2200 50  0001 C CNN
+	1    1950 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2300 1950 2500
+NoConn ~ 10050 7650
+NoConn ~ 10050 7550
+NoConn ~ 7850 9150
+Text Notes 1250 8150 0    50   ~ 0
+Might want to breakout\nthis camera just to allow\npeople to play around with\nhaving a depth cam
+$Sheet
+S 18850 4500 600  500 
 U 64C63980
 F0 "Sensors" 50
 F1 "sensors.sch" 50

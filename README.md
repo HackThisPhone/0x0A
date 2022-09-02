@@ -1,6 +1,8 @@
 # 0x0A
 The 0x0A Smartphone is an open-source, open-hardware smartphone. Repairable, customizable, and fully yours, the 0x0A phone gives you the power. 
 
+![](imgs/better.png)
+
 ## Features:
 
 - Qualcomm Octa-Core ARM Cortex A-53 64-bit CPU @ 1.8GHz (2x quad-core with 512KB L2 cache)
