@@ -1,0 +1,218 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 11
+Title "0x0A SmartPhone"
+Date "2022-09-01"
+Rev "1"
+Comp "HackThisPhone.com"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 645EFBAA
+P 4500 4500
+F 0 "J?" H 4418 4175 50  0000 C CNN
+F 1 "PWRBTN" H 4418 4266 50  0000 C CNN
+F 2 "" H 4500 4500 50  0001 C CNN
+F 3 "~" H 4500 4500 50  0001 C CNN
+	1    4500 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1.5KExxA D?
+U 1 1 645EFBB0
+P 5200 4550
+F 0 "D?" V 5154 4629 50  0000 L CNN
+F 1 "?" V 5245 4629 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 5200 4350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5150 4550 50  0001 C CNN
+	1    5200 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 645EFBB6
+P 5200 4700
+F 0 "#PWR?" H 5200 4450 50  0001 C CNN
+F 1 "GND" H 5205 4527 50  0000 C CNN
+F 2 "" H 5200 4700 50  0001 C CNN
+F 3 "" H 5200 4700 50  0001 C CNN
+	1    5200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 645EFBBC
+P 4700 4700
+F 0 "#PWR?" H 4700 4450 50  0001 C CNN
+F 1 "GND" H 4705 4527 50  0000 C CNN
+F 2 "" H 4700 4700 50  0001 C CNN
+F 3 "" H 4700 4700 50  0001 C CNN
+	1    4700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4700 4700 4500
+Wire Wire Line
+	4700 4400 5200 4400
+Wire Wire Line
+	5700 4400 5550 4400
+Connection ~ 5200 4400
+$Comp
+L Device:R_Small_US R?
+U 1 1 645EFBC6
+P 5450 4400
+F 0 "R?" V 5245 4400 50  0000 C CNN
+F 1 "1k" V 5336 4400 50  0000 C CNN
+F 2 "" H 5450 4400 50  0001 C CNN
+F 3 "~" H 5450 4400 50  0001 C CNN
+	1    5450 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4400 5200 4400
+Text HLabel 5700 4400 2    50   Input ~ 0
+PWR_KEY
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 645F6A60
+P 4500 3500
+AR Path="/6311B05E/645F6A60" Ref="J?"  Part="1" 
+AR Path="/645DE31F/645F6A60" Ref="J?"  Part="1" 
+F 0 "J?" H 4418 3175 50  0000 C CNN
+F 1 "VOL+" H 4418 3266 50  0000 C CNN
+F 2 "" H 4500 3500 50  0001 C CNN
+F 3 "~" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1.5KExxA D?
+U 1 1 645F6A66
+P 5200 3550
+F 0 "D?" V 5154 3629 50  0000 L CNN
+F 1 "?" V 5245 3629 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 5200 3350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5150 3550 50  0001 C CNN
+	1    5200 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 645F6A6C
+P 5200 3700
+F 0 "#PWR?" H 5200 3450 50  0001 C CNN
+F 1 "GND" H 5205 3527 50  0000 C CNN
+F 2 "" H 5200 3700 50  0001 C CNN
+F 3 "" H 5200 3700 50  0001 C CNN
+	1    5200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 645F6A72
+P 4700 3700
+F 0 "#PWR?" H 4700 3450 50  0001 C CNN
+F 1 "GND" H 4705 3527 50  0000 C CNN
+F 2 "" H 4700 3700 50  0001 C CNN
+F 3 "" H 4700 3700 50  0001 C CNN
+	1    4700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3700 4700 3500
+Wire Wire Line
+	4700 3400 5200 3400
+Wire Wire Line
+	5700 3400 5550 3400
+Connection ~ 5200 3400
+$Comp
+L Device:R_Small_US R?
+U 1 1 645F6A7C
+P 5450 3400
+F 0 "R?" V 5245 3400 50  0000 C CNN
+F 1 "1k" V 5336 3400 50  0000 C CNN
+F 2 "" H 5450 3400 50  0001 C CNN
+F 3 "~" H 5450 3400 50  0001 C CNN
+	1    5450 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 3400 5200 3400
+Text HLabel 5700 3400 2    50   Input ~ 0
+VOL_UP
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 645F91B7
+P 4500 2500
+AR Path="/6311B05E/645F91B7" Ref="J?"  Part="1" 
+AR Path="/645DE31F/645F91B7" Ref="J?"  Part="1" 
+F 0 "J?" H 4418 2175 50  0000 C CNN
+F 1 "VOL-" H 4418 2266 50  0000 C CNN
+F 2 "" H 4500 2500 50  0001 C CNN
+F 3 "~" H 4500 2500 50  0001 C CNN
+	1    4500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1.5KExxA D?
+U 1 1 645F91BD
+P 5200 2550
+F 0 "D?" V 5154 2629 50  0000 L CNN
+F 1 "?" V 5245 2629 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 5200 2350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5150 2550 50  0001 C CNN
+	1    5200 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 645F91C3
+P 5200 2700
+F 0 "#PWR?" H 5200 2450 50  0001 C CNN
+F 1 "GND" H 5205 2527 50  0000 C CNN
+F 2 "" H 5200 2700 50  0001 C CNN
+F 3 "" H 5200 2700 50  0001 C CNN
+	1    5200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 645F91C9
+P 4700 2700
+F 0 "#PWR?" H 4700 2450 50  0001 C CNN
+F 1 "GND" H 4705 2527 50  0000 C CNN
+F 2 "" H 4700 2700 50  0001 C CNN
+F 3 "" H 4700 2700 50  0001 C CNN
+	1    4700 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2700 4700 2500
+Wire Wire Line
+	4700 2400 5200 2400
+Wire Wire Line
+	5700 2400 5550 2400
+Connection ~ 5200 2400
+$Comp
+L Device:R_Small_US R?
+U 1 1 645F91D3
+P 5450 2400
+F 0 "R?" V 5245 2400 50  0000 C CNN
+F 1 "1k" V 5336 2400 50  0000 C CNN
+F 2 "" H 5450 2400 50  0001 C CNN
+F 3 "~" H 5450 2400 50  0001 C CNN
+	1    5450 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 2400 5200 2400
+Text HLabel 5700 2400 2    50   Input ~ 0
+VOL_DOWN
+$EndSCHEMATC
