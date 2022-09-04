@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name 0x0A)(type KiCad)(uri ${KIPRJMOD}/libs/0x0A.pretty)(options "")(descr ""))
+  (lib (name "SnapEDA Library")(type KiCad)(uri "${SNAP_EDA}/SnapEDA Library.pretty")(options "")(descr ""))
+)

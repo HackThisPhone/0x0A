@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 13
+Sheet 11 14
 Title "0x0A SmartPhone"
-Date "2022-09-02"
+Date "2022-09-01"
 Rev "1"
 Comp "HackThisPhone.com"
 Comment1 "Designed By @NoahGWood for"
@@ -14,362 +14,364 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 3-1734839-0:3-1734839-0 J?
+L 3-1734839-0:3-1734839-0 J17
 U 1 1 631ED20B
-P 5050 2950
-F 0 "J?" H 5180 2946 50  0000 L CNN
-F 1 "3-1734839-0" H 5180 2855 50  0000 L CNN
-F 2 "SnapEDA Library:TE_3-1734839-0" H 5050 2950 50  0001 L BNN
-F 3 "" H 5050 2950 50  0001 L BNN
-F 4 "C" H 5050 2950 50  0001 L BNN "PARTREVISION"
-F 5 "TE CONNECTIVITY" H 5050 2950 50  0001 L BNN "MANUFACTURER"
-F 6 "MANUFACTURER RECOMMENDATION" H 5050 2950 50  0001 L BNN "STANDARD"
-	1    5050 2950
+P 3550 2550
+F 0 "J17" H 3680 2546 50  0000 L CNN
+F 1 "3-1734839-0" H 3680 2455 50  0000 L CNN
+F 2 "SnapEDA Library:TE_3-1734839-0" H 3550 2550 50  0001 L BNN
+F 3 "" H 3550 2550 50  0001 L BNN
+F 4 "C" H 3550 2550 50  0001 L BNN "PARTREVISION"
+F 5 "TE CONNECTIVITY" H 3550 2550 50  0001 L BNN "MANUFACTURER"
+F 6 "MANUFACTURER RECOMMENDATION" H 3550 2550 50  0001 L BNN "STANDARD"
+	1    3550 2550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4750 1450
-Text Label 4750 2050 2    50   ~ 0
+NoConn ~ 3250 1050
+Text Label 3250 1650 2    50   ~ 0
 AVDD
-Text Label 4750 2250 2    50   ~ 0
+Text Label 3250 1850 2    50   ~ 0
 FRONT_SDA
-Text Label 4750 2350 2    50   ~ 0
+Text Label 3250 1950 2    50   ~ 0
 FRONT_SCL
-Text Label 4750 2450 2    50   ~ 0
+Text Label 3250 2050 2    50   ~ 0
 FRONT_RESET
-Text Label 4750 2750 2    50   ~ 0
+Text Label 3250 2350 2    50   ~ 0
 FRONT_MCLK
-Text Label 4750 2950 2    50   ~ 0
+Text Label 3250 2550 2    50   ~ 0
 FRONT_MDP3
-Text Label 4750 3050 2    50   ~ 0
+Text Label 3250 2650 2    50   ~ 0
 FRONT_MDN3
-Text Label 4750 3250 2    50   ~ 0
+Text Label 3250 2850 2    50   ~ 0
 FRONT_MDP2
-Text Label 4750 3350 2    50   ~ 0
+Text Label 3250 2950 2    50   ~ 0
 FRONT_MDN2
-Text Label 4750 3550 2    50   ~ 0
+Text Label 3250 3150 2    50   ~ 0
 FRONT_MDP1
-Text Label 4750 3650 2    50   ~ 0
+Text Label 3250 3250 2    50   ~ 0
 FRONT_MDN1
-Text Label 4750 3850 2    50   ~ 0
+Text Label 3250 3450 2    50   ~ 0
 FRONT_MCP
-Text Label 4750 3950 2    50   ~ 0
+Text Label 3250 3550 2    50   ~ 0
 FRONT_MCN
-Text Label 4750 4150 2    50   ~ 0
+Text Label 3250 3750 2    50   ~ 0
 FRONT_MDP0
-Text Label 4750 4250 2    50   ~ 0
+Text Label 3250 3850 2    50   ~ 0
 FRONT_MDN0
-NoConn ~ 4750 1850
+NoConn ~ 3250 1450
 Wire Wire Line
-	4750 1950 4250 1950
+	3250 1550 2750 1550
 Wire Wire Line
-	4250 1950 4250 2150
+	2750 1550 2750 1750
 Wire Wire Line
-	4750 4550 4250 4550
-Connection ~ 4250 4550
+	3250 4150 2750 4150
+Connection ~ 2750 4150
 Wire Wire Line
-	4250 4550 4250 4950
+	2750 4150 2750 4550
 Wire Wire Line
-	4750 4350 4250 4350
-Connection ~ 4250 4350
+	3250 3950 2750 3950
+Connection ~ 2750 3950
 Wire Wire Line
-	4250 4350 4250 4550
+	2750 3950 2750 4150
 Wire Wire Line
-	4250 4050 4750 4050
-Connection ~ 4250 4050
+	2750 3650 3250 3650
+Connection ~ 2750 3650
 Wire Wire Line
-	4250 4050 4250 4350
+	2750 3650 2750 3950
 Wire Wire Line
-	4750 3750 4250 3750
-Connection ~ 4250 3750
+	3250 3350 2750 3350
+Connection ~ 2750 3350
 Wire Wire Line
-	4250 3750 4250 4050
+	2750 3350 2750 3650
 Wire Wire Line
-	4250 3450 4750 3450
-Connection ~ 4250 3450
+	2750 3050 3250 3050
+Connection ~ 2750 3050
 Wire Wire Line
-	4250 3450 4250 3750
+	2750 3050 2750 3350
 Wire Wire Line
-	4750 3150 4250 3150
-Connection ~ 4250 3150
+	3250 2750 2750 2750
+Connection ~ 2750 2750
 Wire Wire Line
-	4250 3150 4250 3450
+	2750 2750 2750 3050
 Wire Wire Line
-	4750 2850 4250 2850
-Connection ~ 4250 2850
+	3250 2450 2750 2450
+Connection ~ 2750 2450
 Wire Wire Line
-	4250 2850 4250 3150
+	2750 2450 2750 2750
 Wire Wire Line
-	4750 2650 4250 2650
-Connection ~ 4250 2650
+	3250 2250 2750 2250
+Connection ~ 2750 2250
 Wire Wire Line
-	4250 2650 4250 2850
+	2750 2250 2750 2450
 $Comp
-L power:GND #PWR0169
+L power:GND #PWR072
 U 1 1 631F2DB8
-P 4250 4950
-F 0 "#PWR0169" H 4250 4700 50  0001 C CNN
-F 1 "GND" H 4255 4777 50  0000 C CNN
-F 2 "" H 4250 4950 50  0001 C CNN
-F 3 "" H 4250 4950 50  0001 C CNN
-	1    4250 4950
+P 2750 4550
+F 0 "#PWR072" H 2750 4300 50  0001 C CNN
+F 1 "GND" H 2755 4377 50  0000 C CNN
+F 2 "" H 2750 4550 50  0001 C CNN
+F 3 "" H 2750 4550 50  0001 C CNN
+	1    2750 4550
 	1    0    0    -1  
 $EndComp
-Text HLabel 2400 2650 0    50   Input ~ 0
+Text HLabel 1800 2450 0    50   Input ~ 0
 FRONT_LN1_P
-Text HLabel 2400 2750 0    50   Input ~ 0
+Text HLabel 1800 2550 0    50   Input ~ 0
 FRONT_LN1_N
-Text HLabel 2400 1600 0    50   Input ~ 0
+Text HLabel 1800 1400 0    50   Input ~ 0
 FRONT_I2C_SDA
-Text HLabel 2400 1700 0    50   Input ~ 0
+Text HLabel 1800 1500 0    50   Input ~ 0
 FRONT_I2C_SCL
-Text HLabel 2400 1800 0    50   Input ~ 0
+Text HLabel 1800 1600 0    50   Input ~ 0
 FRONT_RESET
-Text HLabel 2400 2150 0    50   Input ~ 0
+Text HLabel 1800 1950 0    50   Input ~ 0
 FRONT_CLK_P
-Text HLabel 2400 2250 0    50   Input ~ 0
+Text HLabel 1800 2050 0    50   Input ~ 0
 FRONT_CLK_N
-Text HLabel 2400 2400 0    50   Input ~ 0
+Text HLabel 1800 2200 0    50   Input ~ 0
 FRONT_LN0_P
-Text HLabel 2400 2500 0    50   Input ~ 0
+Text HLabel 1800 2300 0    50   Input ~ 0
 FRONT_LN0_N
-Text HLabel 2400 1900 0    50   Input ~ 0
+Text HLabel 1800 1700 0    50   Input ~ 0
 FRONT_PWDN
-Text HLabel 2400 2000 0    50   Input ~ 0
+Text HLabel 1800 1800 0    50   Input ~ 0
 FRONT_MCLK
-Text Label 2400 1600 0    50   ~ 0
+Text Label 1800 1400 0    50   ~ 0
 FRONT_SDA
-Text Label 2400 1700 0    50   ~ 0
+Text Label 1800 1500 0    50   ~ 0
 FRONT_SCL
-Text Label 4750 2550 2    50   ~ 0
+Text Label 3250 2150 2    50   ~ 0
 FRONT_PWDN
-Text Label 2400 1800 0    50   ~ 0
+Text Label 1800 1600 0    50   ~ 0
 FRONT_RESET
-Text Label 2400 1900 0    50   ~ 0
+Text Label 1800 1700 0    50   ~ 0
 FRONT_PWDN
-Text Label 2400 2000 0    50   ~ 0
+Text Label 1800 1800 0    50   ~ 0
 FRONT_MCLK
-Text Label 2400 2150 0    50   ~ 0
+Text Label 1800 1950 0    50   ~ 0
 FRONT_MCP
-Text Label 2400 2250 0    50   ~ 0
+Text Label 1800 2050 0    50   ~ 0
 FRONT_MCN
-Text Label 2400 2650 0    50   ~ 0
+Text Label 1800 2450 0    50   ~ 0
 FRONT_MDP1
-Text Label 2400 2750 0    50   ~ 0
+Text Label 1800 2550 0    50   ~ 0
 FRONT_MDN1
-Text HLabel 2400 2900 0    50   Input ~ 0
+Text HLabel 1800 2700 0    50   Input ~ 0
 FRONT_LN2_P
-Text HLabel 2400 3000 0    50   Input ~ 0
+Text HLabel 1800 2800 0    50   Input ~ 0
 FRONT_LN2_N
-Text Label 2400 2400 0    50   ~ 0
+Text Label 1800 2200 0    50   ~ 0
 FRONT_MDP0
-Text Label 2400 2500 0    50   ~ 0
+Text Label 1800 2300 0    50   ~ 0
 FRONT_MDN0
-Text Label 2400 2900 0    50   ~ 0
+Text Label 1800 2700 0    50   ~ 0
 FRONT_MDP2
-Text Label 2400 3000 0    50   ~ 0
+Text Label 1800 2800 0    50   ~ 0
 FRONT_MDN2
 Wire Wire Line
-	4750 2150 4250 2150
-Connection ~ 4250 2150
+	3250 1750 2750 1750
+Connection ~ 2750 1750
 Wire Wire Line
-	4250 2150 4250 2650
-Text Notes 2950 1050 0    98   ~ 0
+	2750 1750 2750 2250
+Text Notes 1100 900  0    98   ~ 0
 Front Camera
 $Comp
-L 3-1734839-0:3-1734839-0 J?
+L 3-1734839-0:3-1734839-0 J18
 U 1 1 632100C7
-P 9550 2950
-F 0 "J?" H 9680 2946 50  0000 L CNN
-F 1 "3-1734839-0" H 9680 2855 50  0000 L CNN
-F 2 "SnapEDA Library:TE_3-1734839-0" H 9550 2950 50  0001 L BNN
-F 3 "" H 9550 2950 50  0001 L BNN
-F 4 "C" H 9550 2950 50  0001 L BNN "PARTREVISION"
-F 5 "TE CONNECTIVITY" H 9550 2950 50  0001 L BNN "MANUFACTURER"
-F 6 "MANUFACTURER RECOMMENDATION" H 9550 2950 50  0001 L BNN "STANDARD"
-	1    9550 2950
+P 6550 2550
+F 0 "J18" H 6680 2546 50  0000 L CNN
+F 1 "3-1734839-0" H 6680 2455 50  0000 L CNN
+F 2 "SnapEDA Library:TE_3-1734839-0" H 6550 2550 50  0001 L BNN
+F 3 "" H 6550 2550 50  0001 L BNN
+F 4 "C" H 6550 2550 50  0001 L BNN "PARTREVISION"
+F 5 "TE CONNECTIVITY" H 6550 2550 50  0001 L BNN "MANUFACTURER"
+F 6 "MANUFACTURER RECOMMENDATION" H 6550 2550 50  0001 L BNN "STANDARD"
+	1    6550 2550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9250 1450
-Text Label 9250 1550 2    50   ~ 0
+NoConn ~ 6250 1050
+Text Label 6250 1150 2    50   ~ 0
 AF_VDO
-Text Label 9250 1650 2    50   ~ 0
+Text Label 6250 1250 2    50   ~ 0
 DVDD
-Text Label 9250 1750 2    50   ~ 0
+Text Label 6250 1350 2    50   ~ 0
 DOVDD
-Text Label 9250 2050 2    50   ~ 0
+Text Label 6250 1650 2    50   ~ 0
 AVDD
-Text Label 9250 2250 2    50   ~ 0
+Text Label 6250 1850 2    50   ~ 0
 REAR_SDA
-Text Label 9250 2350 2    50   ~ 0
+Text Label 6250 1950 2    50   ~ 0
 REAR_SCL
-Text Label 9250 2450 2    50   ~ 0
+Text Label 6250 2050 2    50   ~ 0
 REAR_RESET
-Text Label 9250 2750 2    50   ~ 0
+Text Label 6250 2350 2    50   ~ 0
 REAR_MCLK
-Text Label 9250 2950 2    50   ~ 0
+Text Label 6250 2550 2    50   ~ 0
 REAR_MDP3
-Text Label 9250 3050 2    50   ~ 0
+Text Label 6250 2650 2    50   ~ 0
 REAR_MDN3
-Text Label 9250 3250 2    50   ~ 0
+Text Label 6250 2850 2    50   ~ 0
 REAR_MDP2
-Text Label 9250 3350 2    50   ~ 0
+Text Label 6250 2950 2    50   ~ 0
 REAR_MDN2
-Text Label 9250 3550 2    50   ~ 0
+Text Label 6250 3150 2    50   ~ 0
 REAR_MDP1
-Text Label 9250 3650 2    50   ~ 0
+Text Label 6250 3250 2    50   ~ 0
 REAR_MDN1
-Text Label 9250 3850 2    50   ~ 0
+Text Label 6250 3450 2    50   ~ 0
 REAR_MCP
-Text Label 9250 3950 2    50   ~ 0
+Text Label 6250 3550 2    50   ~ 0
 REAR_MCN
-Text Label 9250 4150 2    50   ~ 0
+Text Label 6250 3750 2    50   ~ 0
 REAR_MDP0
-Text Label 9250 4250 2    50   ~ 0
+Text Label 6250 3850 2    50   ~ 0
 REAR_MDN0
-NoConn ~ 9250 1850
+NoConn ~ 6250 1450
 Wire Wire Line
-	9250 1950 8750 1950
+	6250 1550 5750 1550
 Wire Wire Line
-	8750 1950 8750 2150
+	5750 1550 5750 1750
 Wire Wire Line
-	9250 4550 8750 4550
-Connection ~ 8750 4550
+	6250 4150 5750 4150
+Connection ~ 5750 4150
 Wire Wire Line
-	8750 4550 8750 4950
+	5750 4150 5750 4550
 Wire Wire Line
-	9250 4350 8750 4350
-Connection ~ 8750 4350
+	6250 3950 5750 3950
+Connection ~ 5750 3950
 Wire Wire Line
-	8750 4350 8750 4550
+	5750 3950 5750 4150
 Wire Wire Line
-	8750 4050 9250 4050
-Connection ~ 8750 4050
+	5750 3650 6250 3650
+Connection ~ 5750 3650
 Wire Wire Line
-	8750 4050 8750 4350
+	5750 3650 5750 3950
 Wire Wire Line
-	9250 3750 8750 3750
-Connection ~ 8750 3750
+	6250 3350 5750 3350
+Connection ~ 5750 3350
 Wire Wire Line
-	8750 3750 8750 4050
+	5750 3350 5750 3650
 Wire Wire Line
-	8750 3450 9250 3450
-Connection ~ 8750 3450
+	5750 3050 6250 3050
+Connection ~ 5750 3050
 Wire Wire Line
-	8750 3450 8750 3750
+	5750 3050 5750 3350
 Wire Wire Line
-	9250 3150 8750 3150
-Connection ~ 8750 3150
+	6250 2750 5750 2750
+Connection ~ 5750 2750
 Wire Wire Line
-	8750 3150 8750 3450
+	5750 2750 5750 3050
 Wire Wire Line
-	9250 2850 8750 2850
-Connection ~ 8750 2850
+	6250 2450 5750 2450
+Connection ~ 5750 2450
 Wire Wire Line
-	8750 2850 8750 3150
+	5750 2450 5750 2750
 Wire Wire Line
-	9250 2650 8750 2650
-Connection ~ 8750 2650
+	6250 2250 5750 2250
+Connection ~ 5750 2250
 Wire Wire Line
-	8750 2650 8750 2850
+	5750 2250 5750 2450
 $Comp
-L power:GND #PWR0170
+L power:GND #PWR079
 U 1 1 632100FC
-P 8750 4950
-F 0 "#PWR0170" H 8750 4700 50  0001 C CNN
-F 1 "GND" H 8755 4777 50  0000 C CNN
-F 2 "" H 8750 4950 50  0001 C CNN
-F 3 "" H 8750 4950 50  0001 C CNN
-	1    8750 4950
+P 5750 4550
+F 0 "#PWR079" H 5750 4300 50  0001 C CNN
+F 1 "GND" H 5755 4377 50  0000 C CNN
+F 2 "" H 5750 4550 50  0001 C CNN
+F 3 "" H 5750 4550 50  0001 C CNN
+	1    5750 4550
 	1    0    0    -1  
 $EndComp
-Text HLabel 6900 2650 0    50   Input ~ 0
+Text HLabel 4850 2400 0    50   Input ~ 0
 REAR_LN1_P
-Text HLabel 6900 2750 0    50   Input ~ 0
+Text HLabel 4850 2500 0    50   Input ~ 0
 REAR_LN1_N
-Text HLabel 6900 1600 0    50   Input ~ 0
+Text HLabel 4850 1350 0    50   Input ~ 0
 REAR_I2C_SDA
-Text HLabel 6900 1700 0    50   Input ~ 0
+Text HLabel 4850 1450 0    50   Input ~ 0
 REAR_I2C_SCL
-Text HLabel 6900 1800 0    50   Input ~ 0
+Text HLabel 4850 1550 0    50   Input ~ 0
 REAR_RESET
-Text HLabel 6900 2150 0    50   Input ~ 0
+Text HLabel 4850 1900 0    50   Input ~ 0
 REAR_CLK_P
-Text HLabel 6900 2250 0    50   Input ~ 0
+Text HLabel 4850 2000 0    50   Input ~ 0
 REAR_CLK_N
-Text HLabel 6900 2400 0    50   Input ~ 0
+Text HLabel 4850 2150 0    50   Input ~ 0
 REAR_LN0_P
-Text HLabel 6900 2500 0    50   Input ~ 0
+Text HLabel 4850 2250 0    50   Input ~ 0
 REAR_LN0_N
-Text HLabel 6900 1900 0    50   Input ~ 0
+Text HLabel 4850 1650 0    50   Input ~ 0
 REAR_PWDN
-Text HLabel 6900 2000 0    50   Input ~ 0
+Text HLabel 4850 1750 0    50   Input ~ 0
 REAR_MCLK
-Text Label 6900 1600 0    50   ~ 0
+Text Label 4850 1350 0    50   ~ 0
 REAR_SDA
-Text Label 6900 1700 0    50   ~ 0
+Text Label 4850 1450 0    50   ~ 0
 REAR_SCL
-Text Label 9250 2550 2    50   ~ 0
+Text Label 6250 2150 2    50   ~ 0
 REAR_PWDN
-Text Label 6900 1800 0    50   ~ 0
+Text Label 4850 1550 0    50   ~ 0
 REAR_RESET
-Text Label 6900 1900 0    50   ~ 0
+Text Label 4850 1650 0    50   ~ 0
 REAR_PWDN
-Text Label 6900 2000 0    50   ~ 0
+Text Label 4850 1750 0    50   ~ 0
 REAR_MCLK
-Text Label 6900 2150 0    50   ~ 0
+Text Label 4850 1900 0    50   ~ 0
 REAR_MCP
-Text Label 6900 2250 0    50   ~ 0
+Text Label 4850 2000 0    50   ~ 0
 REAR_MCN
-Text Label 6900 2650 0    50   ~ 0
+Text Label 4850 2400 0    50   ~ 0
 REAR_MDP1
-Text Label 6900 2750 0    50   ~ 0
+Text Label 4850 2500 0    50   ~ 0
 REAR_MDN1
-Text HLabel 6900 2900 0    50   Input ~ 0
+Text HLabel 4850 2650 0    50   Input ~ 0
 REAR_LN2_P
-Text HLabel 6900 3000 0    50   Input ~ 0
+Text HLabel 4850 2750 0    50   Input ~ 0
 REAR_LN2_N
-Text Label 6900 2400 0    50   ~ 0
+Text Label 4850 2150 0    50   ~ 0
 REAR_MDP0
-Text Label 6900 2500 0    50   ~ 0
+Text Label 4850 2250 0    50   ~ 0
 REAR_MDN0
-Text Label 6900 2900 0    50   ~ 0
+Text Label 4850 2650 0    50   ~ 0
 REAR_MDP2
-Text Label 6900 3000 0    50   ~ 0
+Text Label 4850 2750 0    50   ~ 0
 REAR_MDN2
 Wire Wire Line
-	9250 2150 8750 2150
-Connection ~ 8750 2150
+	6250 1750 5750 1750
+Connection ~ 5750 1750
 Wire Wire Line
-	8750 2150 8750 2650
-Text Notes 7450 1050 0    98   ~ 0
+	5750 1750 5750 2250
+Text Notes 4300 850  0    98   ~ 0
 Rear Camera
 $Comp
-L Device:C_Small C?
+L Device:C_Small C55
 U 1 1 6322BACF
 P 1000 5850
-F 0 "C?" H 1092 5896 50  0000 L CNN
+F 0 "C55" H 1092 5896 50  0000 L CNN
 F 1 "1uF" H 1092 5805 50  0000 L CNN
-F 2 "" H 1000 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1000 5850 50  0001 C CNN
 F 3 "~" H 1000 5850 50  0001 C CNN
+F 4 "C15849" H 1000 5850 50  0001 C CNN "LCSC Part #"
 	1    1000 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C57
 U 1 1 6322BDAC
 P 1500 5850
-F 0 "C?" H 1592 5896 50  0000 L CNN
+F 0 "C57" H 1592 5896 50  0000 L CNN
 F 1 "100nF" H 1592 5805 50  0000 L CNN
-F 2 "" H 1500 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1500 5850 50  0001 C CNN
 F 3 "~" H 1500 5850 50  0001 C CNN
+F 4 "C307331" H 1500 5850 50  0001 C CNN "LCSC Part #"
 	1    1500 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0171
+L power:GND #PWR068
 U 1 1 6322CBA3
 P 1000 6150
-F 0 "#PWR0171" H 1000 5900 50  0001 C CNN
+F 0 "#PWR068" H 1000 5900 50  0001 C CNN
 F 1 "GND" H 1005 5977 50  0000 C CNN
 F 2 "" H 1000 6150 50  0001 C CNN
 F 3 "" H 1000 6150 50  0001 C CNN
@@ -395,32 +397,34 @@ Connection ~ 1000 5600
 Wire Wire Line
 	1000 5600 1000 5450
 $Comp
-L Device:C_Small C?
+L Device:C_Small C59
 U 1 1 6322F3B6
 P 2000 5850
-F 0 "C?" H 2092 5896 50  0000 L CNN
+F 0 "C59" H 2092 5896 50  0000 L CNN
 F 1 "1uF" H 2092 5805 50  0000 L CNN
-F 2 "" H 2000 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2000 5850 50  0001 C CNN
 F 3 "~" H 2000 5850 50  0001 C CNN
+F 4 "C15849" H 2000 5850 50  0001 C CNN "LCSC Part #"
 	1    2000 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C61
 U 1 1 6322F3BC
 P 2500 5850
-F 0 "C?" H 2592 5896 50  0000 L CNN
+F 0 "C61" H 2592 5896 50  0000 L CNN
 F 1 "100nF" H 2592 5805 50  0000 L CNN
-F 2 "" H 2500 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2500 5850 50  0001 C CNN
 F 3 "~" H 2500 5850 50  0001 C CNN
+F 4 "C307331" H 2500 5850 50  0001 C CNN "LCSC Part #"
 	1    2500 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0172
+L power:GND #PWR070
 U 1 1 6322F3C2
 P 2000 6150
-F 0 "#PWR0172" H 2000 5900 50  0001 C CNN
+F 0 "#PWR070" H 2000 5900 50  0001 C CNN
 F 1 "GND" H 2005 5977 50  0000 C CNN
 F 2 "" H 2000 6150 50  0001 C CNN
 F 3 "" H 2000 6150 50  0001 C CNN
@@ -446,32 +450,34 @@ Connection ~ 2000 5600
 Wire Wire Line
 	2000 5600 2000 5450
 $Comp
-L Device:C_Small C?
+L Device:C_Small C63
 U 1 1 632303EE
 P 3000 5850
-F 0 "C?" H 3092 5896 50  0000 L CNN
+F 0 "C63" H 3092 5896 50  0000 L CNN
 F 1 "4.7uF" H 3092 5805 50  0000 L CNN
-F 2 "" H 3000 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 5850 50  0001 C CNN
 F 3 "~" H 3000 5850 50  0001 C CNN
+F 4 "C1779" H 3000 5850 50  0001 C CNN "LCSC Part #"
 	1    3000 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C65
 U 1 1 632303F4
 P 3500 5850
-F 0 "C?" H 3592 5896 50  0000 L CNN
+F 0 "C65" H 3592 5896 50  0000 L CNN
 F 1 "100nF" H 3592 5805 50  0000 L CNN
-F 2 "" H 3500 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 5850 50  0001 C CNN
 F 3 "~" H 3500 5850 50  0001 C CNN
+F 4 "C307331" H 3500 5850 50  0001 C CNN "LCSC Part #"
 	1    3500 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0173
+L power:GND #PWR073
 U 1 1 632303FA
 P 3000 6150
-F 0 "#PWR0173" H 3000 5900 50  0001 C CNN
+F 0 "#PWR073" H 3000 5900 50  0001 C CNN
 F 1 "GND" H 3005 5977 50  0000 C CNN
 F 2 "" H 3000 6150 50  0001 C CNN
 F 3 "" H 3000 6150 50  0001 C CNN
@@ -497,21 +503,22 @@ Connection ~ 3000 5600
 Wire Wire Line
 	3000 5600 3000 5450
 $Comp
-L Device:C_Small C?
+L Device:C_Small C69
 U 1 1 632807CC
 P 4500 5850
-F 0 "C?" H 4592 5896 50  0000 L CNN
+F 0 "C69" H 4592 5896 50  0000 L CNN
 F 1 "100nF" H 4592 5805 50  0000 L CNN
-F 2 "" H 4500 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 5850 50  0001 C CNN
 F 3 "~" H 4500 5850 50  0001 C CNN
+F 4 "C307331" H 4500 5850 50  0001 C CNN "LCSC Part #"
 	1    4500 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0174
+L power:GND #PWR075
 U 1 1 632807D2
 P 4000 6150
-F 0 "#PWR0174" H 4000 5900 50  0001 C CNN
+F 0 "#PWR075" H 4000 5900 50  0001 C CNN
 F 1 "GND" H 4005 5977 50  0000 C CNN
 F 2 "" H 4000 6150 50  0001 C CNN
 F 3 "" H 4000 6150 50  0001 C CNN
@@ -536,38 +543,39 @@ Wire Wire Line
 Connection ~ 4000 5600
 Wire Wire Line
 	4000 5600 4000 5450
-Text Label 4750 1650 2    50   ~ 0
+Text Label 3250 1250 2    50   ~ 0
 DVDD
-Text Label 4750 1750 2    50   ~ 0
+Text Label 3250 1350 2    50   ~ 0
 DOVDD
-Text Label 4750 1550 2    50   ~ 0
+Text Label 3250 1150 2    50   ~ 0
 AF_VDO
 $Comp
-L Device:C_Small C?
+L Device:C_Small C67
 U 1 1 632807C6
 P 4000 5850
-F 0 "C?" H 4092 5896 50  0000 L CNN
+F 0 "C67" H 4092 5896 50  0000 L CNN
 F 1 "4.7uF" H 4092 5805 50  0000 L CNN
-F 2 "" H 4000 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4000 5850 50  0001 C CNN
 F 3 "~" H 4000 5850 50  0001 C CNN
+F 4 "C1779" H 4000 5850 50  0001 C CNN "LCSC Part #"
 	1    4000 5850
 	1    0    0    -1  
 $EndComp
-Text HLabel 5950 6250 0    50   Input ~ 0
+Text HLabel 10800 6100 0    50   Input ~ 0
 LDO6_1V8
-Text HLabel 5950 6150 0    50   Input ~ 0
+Text HLabel 10800 6000 0    50   Input ~ 0
 LDO_1V2
-Text HLabel 5950 6350 0    50   Input ~ 0
+Text HLabel 10800 6200 0    50   Input ~ 0
 AVDD_2V8
-Text HLabel 5950 6050 0    50   Input ~ 0
+Text HLabel 10800 5900 0    50   Input ~ 0
 AFVDD_2V8
-Text Label 5950 6050 0    50   ~ 0
+Text Label 10800 5900 0    50   ~ 0
 AF_VDO
-Text Label 5950 6350 0    50   ~ 0
+Text Label 10800 6200 0    50   ~ 0
 AVDD
-Text Label 5950 6250 0    50   ~ 0
+Text Label 10800 6100 0    50   ~ 0
 DOVDD
-Text Label 5950 6150 0    50   ~ 0
+Text Label 10800 6000 0    50   ~ 0
 DVDD
 Text Label 4000 5450 0    50   ~ 0
 AF_VDO
@@ -578,32 +586,34 @@ DOVDD
 Text Label 2000 5450 0    50   ~ 0
 DVDD
 $Comp
-L Device:C_Small C?
+L Device:C_Small C56
 U 1 1 63343557
 P 1000 7050
-F 0 "C?" H 1092 7096 50  0000 L CNN
+F 0 "C56" H 1092 7096 50  0000 L CNN
 F 1 "1uF" H 1092 7005 50  0000 L CNN
-F 2 "" H 1000 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1000 7050 50  0001 C CNN
 F 3 "~" H 1000 7050 50  0001 C CNN
+F 4 "C15849" H 1000 7050 50  0001 C CNN "LCSC Part #"
 	1    1000 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C58
 U 1 1 6334355D
 P 1500 7050
-F 0 "C?" H 1592 7096 50  0000 L CNN
+F 0 "C58" H 1592 7096 50  0000 L CNN
 F 1 "100nF" H 1592 7005 50  0000 L CNN
-F 2 "" H 1500 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1500 7050 50  0001 C CNN
 F 3 "~" H 1500 7050 50  0001 C CNN
+F 4 "C307331" H 1500 7050 50  0001 C CNN "LCSC Part #"
 	1    1500 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0175
+L power:GND #PWR069
 U 1 1 63343563
 P 1000 7350
-F 0 "#PWR0175" H 1000 7100 50  0001 C CNN
+F 0 "#PWR069" H 1000 7100 50  0001 C CNN
 F 1 "GND" H 1005 7177 50  0000 C CNN
 F 2 "" H 1000 7350 50  0001 C CNN
 F 3 "" H 1000 7350 50  0001 C CNN
@@ -629,32 +639,34 @@ Connection ~ 1000 6800
 Wire Wire Line
 	1000 6800 1000 6650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C60
 U 1 1 63343573
 P 2000 7050
-F 0 "C?" H 2092 7096 50  0000 L CNN
+F 0 "C60" H 2092 7096 50  0000 L CNN
 F 1 "1uF" H 2092 7005 50  0000 L CNN
-F 2 "" H 2000 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2000 7050 50  0001 C CNN
 F 3 "~" H 2000 7050 50  0001 C CNN
+F 4 "C15849" H 2000 7050 50  0001 C CNN "LCSC Part #"
 	1    2000 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C62
 U 1 1 63343579
 P 2500 7050
-F 0 "C?" H 2592 7096 50  0000 L CNN
+F 0 "C62" H 2592 7096 50  0000 L CNN
 F 1 "100nF" H 2592 7005 50  0000 L CNN
-F 2 "" H 2500 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2500 7050 50  0001 C CNN
 F 3 "~" H 2500 7050 50  0001 C CNN
+F 4 "C307331" H 2500 7050 50  0001 C CNN "LCSC Part #"
 	1    2500 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0176
+L power:GND #PWR071
 U 1 1 6334357F
 P 2000 7350
-F 0 "#PWR0176" H 2000 7100 50  0001 C CNN
+F 0 "#PWR071" H 2000 7100 50  0001 C CNN
 F 1 "GND" H 2005 7177 50  0000 C CNN
 F 2 "" H 2000 7350 50  0001 C CNN
 F 3 "" H 2000 7350 50  0001 C CNN
@@ -680,32 +692,34 @@ Connection ~ 2000 6800
 Wire Wire Line
 	2000 6800 2000 6650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C64
 U 1 1 6334358F
 P 3000 7050
-F 0 "C?" H 3092 7096 50  0000 L CNN
+F 0 "C64" H 3092 7096 50  0000 L CNN
 F 1 "4.7uF" H 3092 7005 50  0000 L CNN
-F 2 "" H 3000 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 7050 50  0001 C CNN
 F 3 "~" H 3000 7050 50  0001 C CNN
+F 4 "C1779" H 3000 7050 50  0001 C CNN "LCSC Part #"
 	1    3000 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C66
 U 1 1 63343595
 P 3500 7050
-F 0 "C?" H 3592 7096 50  0000 L CNN
+F 0 "C66" H 3592 7096 50  0000 L CNN
 F 1 "100nF" H 3592 7005 50  0000 L CNN
-F 2 "" H 3500 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3500 7050 50  0001 C CNN
 F 3 "~" H 3500 7050 50  0001 C CNN
+F 4 "C307331" H 3500 7050 50  0001 C CNN "LCSC Part #"
 	1    3500 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0177
+L power:GND #PWR074
 U 1 1 6334359B
 P 3000 7350
-F 0 "#PWR0177" H 3000 7100 50  0001 C CNN
+F 0 "#PWR074" H 3000 7100 50  0001 C CNN
 F 1 "GND" H 3005 7177 50  0000 C CNN
 F 2 "" H 3000 7350 50  0001 C CNN
 F 3 "" H 3000 7350 50  0001 C CNN
@@ -731,21 +745,22 @@ Connection ~ 3000 6800
 Wire Wire Line
 	3000 6800 3000 6650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C70
 U 1 1 633435AB
 P 4500 7050
-F 0 "C?" H 4592 7096 50  0000 L CNN
+F 0 "C70" H 4592 7096 50  0000 L CNN
 F 1 "100nF" H 4592 7005 50  0000 L CNN
-F 2 "" H 4500 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4500 7050 50  0001 C CNN
 F 3 "~" H 4500 7050 50  0001 C CNN
+F 4 "C307331" H 4500 7050 50  0001 C CNN "LCSC Part #"
 	1    4500 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0178
+L power:GND #PWR076
 U 1 1 633435B1
 P 4000 7350
-F 0 "#PWR0178" H 4000 7100 50  0001 C CNN
+F 0 "#PWR076" H 4000 7100 50  0001 C CNN
 F 1 "GND" H 4005 7177 50  0000 C CNN
 F 2 "" H 4000 7350 50  0001 C CNN
 F 3 "" H 4000 7350 50  0001 C CNN
@@ -771,13 +786,14 @@ Connection ~ 4000 6800
 Wire Wire Line
 	4000 6800 4000 6650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C68
 U 1 1 633435C1
 P 4000 7050
-F 0 "C?" H 4092 7096 50  0000 L CNN
+F 0 "C68" H 4092 7096 50  0000 L CNN
 F 1 "4.7uF" H 4092 7005 50  0000 L CNN
-F 2 "" H 4000 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4000 7050 50  0001 C CNN
 F 3 "~" H 4000 7050 50  0001 C CNN
+F 4 "C1779" H 4000 7050 50  0001 C CNN "LCSC Part #"
 	1    4000 7050
 	1    0    0    -1  
 $EndComp
@@ -789,20 +805,418 @@ Text Label 1000 6650 0    50   ~ 0
 DOVDD
 Text Label 2000 6650 0    50   ~ 0
 DVDD
-Text HLabel 2400 3150 0    50   Input ~ 0
+Text HLabel 1800 2950 0    50   Input ~ 0
 FRONT_LN3_P
-Text HLabel 2400 3250 0    50   Input ~ 0
+Text HLabel 1800 3050 0    50   Input ~ 0
 FRONT_LN3_N
-Text Label 2400 3150 0    50   ~ 0
+Text Label 1800 2950 0    50   ~ 0
 FRONT_MDP3
-Text Label 2400 3250 0    50   ~ 0
+Text Label 1800 3050 0    50   ~ 0
 FRONT_MDN3
-Text HLabel 6900 3150 0    50   Input ~ 0
+Text HLabel 4850 2900 0    50   Input ~ 0
 REAR_LN3_P
-Text HLabel 6900 3250 0    50   Input ~ 0
+Text HLabel 4850 3000 0    50   Input ~ 0
 REAR_LN3_N
-Text Label 6900 3150 0    50   ~ 0
+Text Label 4850 2900 0    50   ~ 0
 REAR_MDP3
-Text Label 6900 3250 0    50   ~ 0
+Text Label 4850 3000 0    50   ~ 0
 REAR_MDN3
+$Comp
+L 3-1734839-0:3-1734839-0 J19
+U 1 1 63EFBDE8
+P 10050 2550
+F 0 "J19" H 10180 2546 50  0000 L CNN
+F 1 "3-1734839-0" H 10180 2455 50  0000 L CNN
+F 2 "SnapEDA Library:TE_3-1734839-0" H 10050 2550 50  0001 L BNN
+F 3 "" H 10050 2550 50  0001 L BNN
+F 4 "C" H 10050 2550 50  0001 L BNN "PARTREVISION"
+F 5 "TE CONNECTIVITY" H 10050 2550 50  0001 L BNN "MANUFACTURER"
+F 6 "MANUFACTURER RECOMMENDATION" H 10050 2550 50  0001 L BNN "STANDARD"
+	1    10050 2550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9750 1050
+Text Label 9750 1150 2    50   ~ 0
+AF_VDO
+Text Label 9750 1250 2    50   ~ 0
+DVDD
+Text Label 9750 1350 2    50   ~ 0
+DOVDD
+Text Label 9750 1650 2    50   ~ 0
+AVDD
+Text Label 9750 1850 2    50   ~ 0
+DCAM_SDA
+Text Label 9750 1950 2    50   ~ 0
+DCAM_SCL
+Text Label 9750 2050 2    50   ~ 0
+DCAM_RESET
+Text Label 9750 2350 2    50   ~ 0
+DCAM_MCLK
+Text Label 9750 2550 2    50   ~ 0
+DCAM_MDP3
+Text Label 9750 2650 2    50   ~ 0
+DCAM_MDN3
+Text Label 9750 2850 2    50   ~ 0
+DCAM_MDP2
+Text Label 9750 2950 2    50   ~ 0
+DCAM_MDN2
+Text Label 9750 3150 2    50   ~ 0
+DCAM_MDP1
+Text Label 9750 3250 2    50   ~ 0
+DCAM_MDN1
+Text Label 9750 3450 2    50   ~ 0
+DCAM_MCP
+Text Label 9750 3550 2    50   ~ 0
+DCAM_MCN
+Text Label 9750 3750 2    50   ~ 0
+DCAM_MDP0
+Text Label 9750 3850 2    50   ~ 0
+DCAM_MDN0
+NoConn ~ 9750 1450
+Wire Wire Line
+	9750 1550 9250 1550
+Wire Wire Line
+	9250 1550 9250 1750
+Wire Wire Line
+	9750 4150 9250 4150
+Connection ~ 9250 4150
+Wire Wire Line
+	9250 4150 9250 4550
+Wire Wire Line
+	9750 3950 9250 3950
+Connection ~ 9250 3950
+Wire Wire Line
+	9250 3950 9250 4150
+Wire Wire Line
+	9250 3650 9750 3650
+Connection ~ 9250 3650
+Wire Wire Line
+	9250 3650 9250 3950
+Wire Wire Line
+	9750 3350 9250 3350
+Connection ~ 9250 3350
+Wire Wire Line
+	9250 3350 9250 3650
+Wire Wire Line
+	9250 3050 9750 3050
+Connection ~ 9250 3050
+Wire Wire Line
+	9250 3050 9250 3350
+Wire Wire Line
+	9750 2750 9250 2750
+Connection ~ 9250 2750
+Wire Wire Line
+	9250 2750 9250 3050
+Wire Wire Line
+	9750 2450 9250 2450
+Connection ~ 9250 2450
+Wire Wire Line
+	9250 2450 9250 2750
+Wire Wire Line
+	9750 2250 9250 2250
+Connection ~ 9250 2250
+Wire Wire Line
+	9250 2250 9250 2450
+$Comp
+L power:GND #PWR082
+U 1 1 63EFBE1C
+P 9250 4550
+F 0 "#PWR082" H 9250 4300 50  0001 C CNN
+F 1 "GND" H 9255 4377 50  0000 C CNN
+F 2 "" H 9250 4550 50  0001 C CNN
+F 3 "" H 9250 4550 50  0001 C CNN
+	1    9250 4550
+	1    0    0    -1  
+$EndComp
+Text HLabel 8350 2400 0    50   Input ~ 0
+DCAM_LN1_P
+Text HLabel 8350 2500 0    50   Input ~ 0
+DCAM_LN1_N
+Text HLabel 8350 1350 0    50   Input ~ 0
+DCAM_I2C_SDA
+Text HLabel 8350 1450 0    50   Input ~ 0
+DCAM_I2C_SCL
+Text HLabel 8350 1550 0    50   Input ~ 0
+DCAM_RESET
+Text HLabel 8350 1900 0    50   Input ~ 0
+DCAM_CLK_P
+Text HLabel 8350 2000 0    50   Input ~ 0
+DCAM_CLK_N
+Text HLabel 8350 2150 0    50   Input ~ 0
+DCAM_LN0_P
+Text HLabel 8350 2250 0    50   Input ~ 0
+DCAM_LN0_N
+Text HLabel 8350 1650 0    50   Input ~ 0
+DCAM_PWDN
+Text HLabel 8350 1750 0    50   Input ~ 0
+DCAM_MCLK
+Text Label 8350 1350 0    50   ~ 0
+DCAM_SDA
+Text Label 8350 1450 0    50   ~ 0
+DCAM_SCL
+Text Label 9750 2150 2    50   ~ 0
+DCAM_PWDN
+Text Label 8350 1550 0    50   ~ 0
+DCAM_RESET
+Text Label 8350 1650 0    50   ~ 0
+DCAM_PWDN
+Text Label 8350 1750 0    50   ~ 0
+DCAM_MCLK
+Text Label 8350 1900 0    50   ~ 0
+DCAM_MCP
+Text Label 8350 2000 0    50   ~ 0
+DCAM_MCN
+Text Label 8350 2400 0    50   ~ 0
+DCAM_MDP1
+Text Label 8350 2500 0    50   ~ 0
+DCAM_MDN1
+Text HLabel 8350 2650 0    50   Input ~ 0
+DCAM_LN2_P
+Text HLabel 8350 2750 0    50   Input ~ 0
+DCAM_LN2_N
+Text Label 8350 2150 0    50   ~ 0
+DCAM_MDP0
+Text Label 8350 2250 0    50   ~ 0
+DCAM_MDN0
+Text Label 8350 2650 0    50   ~ 0
+DCAM_MDP2
+Text Label 8350 2750 0    50   ~ 0
+DCAM_MDN2
+Wire Wire Line
+	9750 1750 9250 1750
+Connection ~ 9250 1750
+Wire Wire Line
+	9250 1750 9250 2250
+Text Notes 7850 1000 0    98   ~ 0
+Depth Camera\n(optional)
+Text HLabel 8350 2900 0    50   Input ~ 0
+DCAM_LN3_P
+Text HLabel 8350 3000 0    50   Input ~ 0
+DCAM_LN3_N
+Text Label 8350 2900 0    50   ~ 0
+DCAM_MDP3
+Text Label 8350 3000 0    50   ~ 0
+DCAM_MDN3
+$Comp
+L Device:C_Small C71
+U 1 1 64101225
+P 5000 5850
+F 0 "C71" H 5092 5896 50  0000 L CNN
+F 1 "1uF" H 5092 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5000 5850 50  0001 C CNN
+F 3 "~" H 5000 5850 50  0001 C CNN
+F 4 "C15849" H 5000 5850 50  0001 C CNN "LCSC Part #"
+	1    5000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C73
+U 1 1 6410122B
+P 5500 5850
+F 0 "C73" H 5592 5896 50  0000 L CNN
+F 1 "100nF" H 5592 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5500 5850 50  0001 C CNN
+F 3 "~" H 5500 5850 50  0001 C CNN
+F 4 "C307331" H 5500 5850 50  0001 C CNN "LCSC Part #"
+	1    5500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR077
+U 1 1 64101231
+P 5000 6150
+F 0 "#PWR077" H 5000 5900 50  0001 C CNN
+F 1 "GND" H 5005 5977 50  0000 C CNN
+F 2 "" H 5000 6150 50  0001 C CNN
+F 3 "" H 5000 6150 50  0001 C CNN
+	1    5000 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6150 5000 6050
+Wire Wire Line
+	5000 5750 5000 5600
+Wire Wire Line
+	5000 6050 5500 6050
+Wire Wire Line
+	5500 6050 5500 5950
+Connection ~ 5000 6050
+Wire Wire Line
+	5000 6050 5000 5950
+Wire Wire Line
+	5500 5750 5500 5600
+Wire Wire Line
+	5500 5600 5000 5600
+Connection ~ 5000 5600
+Wire Wire Line
+	5000 5600 5000 5450
+$Comp
+L Device:C_Small C75
+U 1 1 64101241
+P 6000 5850
+F 0 "C75" H 6092 5896 50  0000 L CNN
+F 1 "1uF" H 6092 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 5850 50  0001 C CNN
+F 3 "~" H 6000 5850 50  0001 C CNN
+F 4 "C15849" H 6000 5850 50  0001 C CNN "LCSC Part #"
+	1    6000 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C77
+U 1 1 64101247
+P 6500 5850
+F 0 "C77" H 6592 5896 50  0000 L CNN
+F 1 "100nF" H 6592 5805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 5850 50  0001 C CNN
+F 3 "~" H 6500 5850 50  0001 C CNN
+F 4 "C307331" H 6500 5850 50  0001 C CNN "LCSC Part #"
+	1    6500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR080
+U 1 1 6410124D
+P 6000 6150
+F 0 "#PWR080" H 6000 5900 50  0001 C CNN
+F 1 "GND" H 6005 5977 50  0000 C CNN
+F 2 "" H 6000 6150 50  0001 C CNN
+F 3 "" H 6000 6150 50  0001 C CNN
+	1    6000 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6150 6000 6050
+Wire Wire Line
+	6000 5750 6000 5600
+Wire Wire Line
+	6000 6050 6500 6050
+Wire Wire Line
+	6500 6050 6500 5950
+Connection ~ 6000 6050
+Wire Wire Line
+	6000 6050 6000 5950
+Wire Wire Line
+	6500 5750 6500 5600
+Wire Wire Line
+	6500 5600 6000 5600
+Connection ~ 6000 5600
+Wire Wire Line
+	6000 5600 6000 5450
+$Comp
+L Device:C_Small C72
+U 1 1 6410125D
+P 5000 7050
+F 0 "C72" H 5092 7096 50  0000 L CNN
+F 1 "4.7uF" H 5092 7005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5000 7050 50  0001 C CNN
+F 3 "~" H 5000 7050 50  0001 C CNN
+F 4 "C1779" H 5000 7050 50  0001 C CNN "LCSC Part #"
+	1    5000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C74
+U 1 1 64101263
+P 5500 7050
+F 0 "C74" H 5592 7096 50  0000 L CNN
+F 1 "100nF" H 5592 7005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5500 7050 50  0001 C CNN
+F 3 "~" H 5500 7050 50  0001 C CNN
+F 4 "C307331" H 5500 7050 50  0001 C CNN "LCSC Part #"
+	1    5500 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR078
+U 1 1 64101269
+P 5000 7350
+F 0 "#PWR078" H 5000 7100 50  0001 C CNN
+F 1 "GND" H 5005 7177 50  0000 C CNN
+F 2 "" H 5000 7350 50  0001 C CNN
+F 3 "" H 5000 7350 50  0001 C CNN
+	1    5000 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7350 5000 7250
+Wire Wire Line
+	5000 6950 5000 6800
+Wire Wire Line
+	5000 7250 5500 7250
+Wire Wire Line
+	5500 7250 5500 7150
+Connection ~ 5000 7250
+Wire Wire Line
+	5000 7250 5000 7150
+Wire Wire Line
+	5500 6950 5500 6800
+Wire Wire Line
+	5500 6800 5000 6800
+Connection ~ 5000 6800
+Wire Wire Line
+	5000 6800 5000 6650
+$Comp
+L Device:C_Small C78
+U 1 1 64101279
+P 6500 7050
+F 0 "C78" H 6592 7096 50  0000 L CNN
+F 1 "100nF" H 6592 7005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 7050 50  0001 C CNN
+F 3 "~" H 6500 7050 50  0001 C CNN
+F 4 "C307331" H 6500 7050 50  0001 C CNN "LCSC Part #"
+	1    6500 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR081
+U 1 1 6410127F
+P 6000 7350
+F 0 "#PWR081" H 6000 7100 50  0001 C CNN
+F 1 "GND" H 6005 7177 50  0000 C CNN
+F 2 "" H 6000 7350 50  0001 C CNN
+F 3 "" H 6000 7350 50  0001 C CNN
+	1    6000 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 7350 6000 7250
+Wire Wire Line
+	6000 6950 6000 6800
+Wire Wire Line
+	6000 7250 6500 7250
+Wire Wire Line
+	6500 7250 6500 7150
+Connection ~ 6000 7250
+Wire Wire Line
+	6000 7250 6000 7150
+Wire Wire Line
+	6500 6950 6500 6800
+Wire Wire Line
+	6500 6800 6000 6800
+Connection ~ 6000 6800
+Wire Wire Line
+	6000 6800 6000 6650
+$Comp
+L Device:C_Small C76
+U 1 1 6410128F
+P 6000 7050
+F 0 "C76" H 6092 7096 50  0000 L CNN
+F 1 "4.7uF" H 6092 7005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6000 7050 50  0001 C CNN
+F 3 "~" H 6000 7050 50  0001 C CNN
+F 4 "C1779" H 6000 7050 50  0001 C CNN "LCSC Part #"
+	1    6000 7050
+	1    0    0    -1  
+$EndComp
+Text Label 6000 6650 0    50   ~ 0
+AF_VDO
+Text Label 5000 6650 0    50   ~ 0
+AVDD
+Text Label 5000 5450 0    50   ~ 0
+DOVDD
+Text Label 6000 5450 0    50   ~ 0
+DVDD
+Text Notes 7500 6050 2    50   ~ 0
+Decoupling Caps
 $EndSCHEMATC

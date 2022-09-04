@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 13
+Sheet 13 14
 Title "0x0A SmartPhone"
 Date "2022-09-01"
 Rev "1"
@@ -14,25 +14,544 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Audio:MP45DT02 MK1
-U 1 1 63F66D5E
-P 4050 3350
-F 0 "MK1" H 3720 3396 50  0000 R CNN
-F 1 "MP45DT02" H 3720 3305 50  0000 R CNN
-F 2 "Sensor_Audio:ST_HLGA-6_3.76x4.72mm_P1.65mm" H 3150 3000 50  0001 L CIN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00025467.pdf" H 4050 3350 50  0001 C CNN
-	1    4050 3350
+L MP23ABS1TR:MP23ABS1TR MK1
+U 1 1 644AF164
+P 3000 3950
+F 0 "MK1" H 2770 3904 50  0000 R CNN
+F 1 "MP23ABS1TR" H 2770 3995 50  0000 R CNN
+F 2 "SnapEDA Library:MIC_MP23ABS1TR" H 3000 3950 50  0001 L BNN
+F 3 "" H 3000 3950 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 3000 3950 50  0001 L BNN "STANDARD"
+F 5 "1.08 mm" H 3000 3950 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "STMicroelectronics" H 3000 3950 50  0001 L BNN "MANUFACTURER"
+F 7 "5" H 3000 3950 50  0001 L BNN "PARTREV"
+	1    3000 3950
+	-1   0    0    1   
+$EndComp
+Text HLabel 4200 1500 0    50   Input ~ 0
+MIC1_P
+Text HLabel 4200 1800 0    50   Input ~ 0
+MIC1_N
+$Comp
+L power:GND #PWR091
+U 1 1 644CD95A
+P 2200 2150
+F 0 "#PWR091" H 2200 1900 50  0001 C CNN
+F 1 "GND" H 2205 1977 50  0000 C CNN
+F 2 "" H 2200 2150 50  0001 C CNN
+F 3 "" H 2200 2150 50  0001 C CNN
+	1    2200 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor:Motor_DC_ALT M1
-U 1 1 63FA151C
-P 6950 2550
-F 0 "M1" H 7097 2546 50  0000 L CNN
-F 1 "C2759984" H 7097 2455 50  0000 L CNN
-F 2 "" H 6950 2460 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/2103261932_LEADER-LCM1027A2445F_C2759984.pdf" H 6950 2460 50  0001 C CNN
-	1    6950 2550
+L Device:R_Small_US R31
+U 1 1 644D03AF
+P 4300 1500
+F 0 "R31" V 4095 1500 50  0000 C CNN
+F 1 "0R" V 4186 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4300 1500 50  0001 C CNN
+F 3 "~" H 4300 1500 50  0001 C CNN
+	1    4300 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R30
+U 1 1 644D0BF9
+P 2200 1950
+F 0 "R30" H 2132 1904 50  0000 R CNN
+F 1 "0R" H 2132 1995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2200 1950 50  0001 C CNN
+F 3 "~" H 2200 1950 50  0001 C CNN
+	1    2200 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C84
+U 1 1 644D4F73
+P 2450 1950
+F 0 "C84" H 2542 1996 50  0000 L CNN
+F 1 "33pF" H 2542 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2450 1950 50  0001 C CNN
+F 3 "~" H 2450 1950 50  0001 C CNN
+F 4 "C1663" H 2450 1950 50  0001 C CNN "LCSC Part #"
+	1    2450 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2200 2150 2200 2050
+Connection ~ 2200 2150
+Wire Wire Line
+	2200 2150 2450 2150
+Wire Wire Line
+	2450 2150 2450 2050
+Text Notes 900  2450 0    50   ~ 0
+Left for external use.\n\nElectret:\nPin1 -> Mic P\nPin2 -> Mic N\nMEMS:\nPin 1 -> Out\nPin 3 -> VDD\nPin 4 -> GND
+Text HLabel 5250 1500 0    50   Input ~ 0
+MIC_BIAS
+Text HLabel 5250 1800 0    50   Input ~ 0
+MIC_GND
+$Comp
+L Connector_Generic:Conn_01x04 J21
+U 1 1 644E0091
+P 2750 1400
+F 0 "J21" H 2850 1450 50  0000 L CNN
+F 1 "Conn_01x04" H 2850 1350 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 2850 1250 50  0000 L CNN
+F 3 "~" H 2750 1400 50  0001 C CNN
+	1    2750 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1850 2200 1400
+Wire Wire Line
+	2450 1850 2450 1300
+Connection ~ 2450 1300
+Wire Wire Line
+	2450 1300 2550 1300
+$Comp
+L Device:D_TVS D22
+U 1 1 644EF6D8
+P 2000 1850
+F 0 "D22" V 2046 1771 50  0000 R CNN
+F 1 "D_TVS" V 1955 1771 50  0000 R CNN
+F 2 "" H 2000 1850 50  0001 C CNN
+F 3 "~" H 2000 1850 50  0001 C CNN
+	1    2000 1850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2000 1700 2000 1300
+Wire Wire Line
+	2000 1300 2450 1300
+Wire Wire Line
+	2000 2000 2000 2150
+Wire Wire Line
+	2000 2150 2200 2150
+$Comp
+L power:GND #PWR090
+U 1 1 644FAB9A
+P 2100 4700
+F 0 "#PWR090" H 2100 4450 50  0001 C CNN
+F 1 "GND" H 2105 4527 50  0000 C CNN
+F 2 "" H 2100 4700 50  0001 C CNN
+F 3 "" H 2100 4700 50  0001 C CNN
+	1    2100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C83
+U 1 1 644FABA6
+P 2100 4500
+F 0 "C83" H 2192 4546 50  0000 L CNN
+F 1 "33pF" H 2192 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 4500 50  0001 C CNN
+F 3 "~" H 2100 4500 50  0001 C CNN
+F 4 "C1663" H 2100 4500 50  0001 C CNN "LCSC Part #"
+	1    2100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4700 2100 4600
+$Comp
+L Device:D_TVS D21
+U 1 1 644FABB2
+P 1750 4350
+F 0 "D21" V 1796 4271 50  0000 R CNN
+F 1 "D_TVS" V 1705 4271 50  0000 R CNN
+F 2 "" H 1750 4350 50  0001 C CNN
+F 3 "~" H 1750 4350 50  0001 C CNN
+	1    1750 4350
+	0    1    -1   0   
+$EndComp
+Text Label 5450 1500 0    50   ~ 0
+MIC_BIAS
+Text Label 5450 1800 0    50   ~ 0
+MIC_GND
+Text Label 4400 1500 0    50   ~ 0
+MIC1_P
+Text Label 4400 1800 0    50   ~ 0
+MIC1_N
+$Comp
+L Device:R_Small_US R32
+U 1 1 6450BB34
+P 4300 1800
+F 0 "R32" V 4095 1800 50  0000 C CNN
+F 1 "0R" V 4186 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4300 1800 50  0001 C CNN
+F 3 "~" H 4300 1800 50  0001 C CNN
+	1    4300 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R34
+U 1 1 6451253B
+P 5350 1500
+F 0 "R34" V 5145 1500 50  0000 C CNN
+F 1 "0R" V 5236 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5350 1500 50  0001 C CNN
+F 3 "~" H 5350 1500 50  0001 C CNN
+	1    5350 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R35
+U 1 1 64514784
+P 5350 1800
+F 0 "R35" V 5145 1800 50  0000 C CNN
+F 1 "0R" V 5236 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5350 1800 50  0001 C CNN
+F 3 "~" H 5350 1800 50  0001 C CNN
+	1    5350 1800
+	0    1    1    0   
+$EndComp
+Text HLabel 4200 2100 0    50   Input ~ 0
+MIC3_P
+Text Label 4400 2100 0    50   ~ 0
+MIC3_P
+$Comp
+L Device:R_Small_US R33
+U 1 1 6451EBBE
+P 4300 2100
+F 0 "R33" V 4095 2100 50  0000 C CNN
+F 1 "0R" V 4186 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4300 2100 50  0001 C CNN
+F 3 "~" H 4300 2100 50  0001 C CNN
+	1    4300 2100
+	0    1    1    0   
+$EndComp
+Text Label 1600 3950 2    50   ~ 0
+MIC3_P
+$Comp
+L Device:C_Small C85
+U 1 1 64521F4A
+P 2450 4500
+F 0 "C85" H 2542 4546 50  0000 L CNN
+F 1 "100nF" H 2542 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2450 4500 50  0001 C CNN
+F 3 "~" H 2450 4500 50  0001 C CNN
+F 4 "C307331" H 2450 4500 50  0001 C CNN "LCSC Part #"
+	1    2450 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4700 2450 4600
+Text Label 1600 4150 2    50   ~ 0
+MIC_BIAS
+Wire Wire Line
+	1600 3950 1750 3950
+Connection ~ 2100 4700
+Wire Wire Line
+	2100 4700 2450 4700
+Wire Wire Line
+	1750 4700 1950 4700
+Wire Wire Line
+	1600 4150 2450 4150
+Connection ~ 2600 4150
+Wire Wire Line
+	2600 4150 2650 4150
+Wire Wire Line
+	1750 4200 1750 3950
+Connection ~ 1750 3950
+Wire Wire Line
+	1750 4500 1750 4700
+Wire Wire Line
+	2100 4400 2100 3950
+Wire Wire Line
+	1750 3950 2100 3950
+Connection ~ 2100 3950
+Wire Wire Line
+	2100 3950 2600 3950
+Wire Wire Line
+	2450 4400 2450 4150
+Connection ~ 2450 4150
+Wire Wire Line
+	2450 4150 2600 4150
+Wire Wire Line
+	1950 4700 1950 3750
+Wire Wire Line
+	1600 3750 1950 3750
+Connection ~ 1950 4700
+Wire Wire Line
+	1950 4700 2100 4700
+Connection ~ 1950 3750
+Wire Wire Line
+	1950 3750 2600 3750
+Text Label 1600 3750 2    50   ~ 0
+MIC_GND
+Text Notes 3000 3450 2    98   ~ 0
+Embedded MEMS Mic
+Text Label 1550 1300 2    50   ~ 0
+MIC1_P
+Text Label 1550 1400 2    50   ~ 0
+MIC1_N
+Text Label 1550 1500 2    50   ~ 0
+MIC_BIAS
+Text Label 1550 1600 2    50   ~ 0
+MIC_GND
+Wire Wire Line
+	1550 1600 2550 1600
+Wire Wire Line
+	1550 1500 2550 1500
+Wire Wire Line
+	1550 1400 2200 1400
+Connection ~ 2200 1400
+Wire Wire Line
+	2200 1400 2550 1400
+Connection ~ 2000 1300
+Wire Wire Line
+	2000 1300 1550 1300
+$Comp
+L Device:Speaker LS1
+U 1 1 64552821
+P 9000 1550
+F 0 "LS1" H 9200 1550 50  0000 L CNN
+F 1 "Speaker" H 9200 1500 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal" H 9000 1350 50  0001 C CNN
+F 3 "~" H 8990 1500 50  0001 C CNN
+	1    9000 1550
+	1    0    0    -1  
+$EndComp
+Text HLabel 7250 1500 0    50   Input ~ 0
+EAR_P
+Text HLabel 7250 1700 0    50   Input ~ 0
+EAR_N
+$Comp
+L Device:C_Small C86
+U 1 1 64553A2C
+P 7550 1400
+F 0 "C86" H 7642 1446 50  0000 L CNN
+F 1 "33pF" H 7642 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 1400 50  0001 C CNN
+F 3 "~" H 7550 1400 50  0001 C CNN
+F 4 "C1663" H 7550 1400 50  0001 C CNN "LCSC Part #"
+	1    7550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C87
+U 1 1 645544F0
+P 7550 1600
+F 0 "C87" H 7642 1646 50  0000 L CNN
+F 1 "33pF" H 7642 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 1600 50  0001 C CNN
+F 3 "~" H 7550 1600 50  0001 C CNN
+F 4 "C1663" H 7550 1600 50  0001 C CNN "LCSC Part #"
+	1    7550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C88
+U 1 1 64554665
+P 7550 1800
+F 0 "C88" H 7642 1846 50  0000 L CNN
+F 1 "33pF" H 7642 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 1800 50  0001 C CNN
+F 3 "~" H 7550 1800 50  0001 C CNN
+F 4 "C1663" H 7550 1800 50  0001 C CNN "LCSC Part #"
+	1    7550 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1700 7250 1700
+Connection ~ 7550 1700
+Wire Wire Line
+	7550 1500 7250 1500
+Connection ~ 7550 1500
+$Comp
+L Device:D_TVS D23
+U 1 1 645607D3
+P 8150 1650
+F 0 "D23" V 8196 1571 50  0000 R CNN
+F 1 "D_TVS" V 8105 1571 50  0000 R CNN
+F 2 "" H 8150 1650 50  0001 C CNN
+F 3 "~" H 8150 1650 50  0001 C CNN
+	1    8150 1650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_TVS D25
+U 1 1 6456192F
+P 8550 1850
+F 0 "D25" V 8596 1771 50  0000 R CNN
+F 1 "D_TVS" V 8505 1771 50  0000 R CNN
+F 2 "" H 8550 1850 50  0001 C CNN
+F 3 "~" H 8550 1850 50  0001 C CNN
+	1    8550 1850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8800 1550 8800 1500
+Wire Wire Line
+	8800 1500 8150 1500
+Connection ~ 8150 1500
+Wire Wire Line
+	8150 1500 7550 1500
+Wire Wire Line
+	7550 1700 8550 1700
+Wire Wire Line
+	8800 1700 8800 1650
+Connection ~ 8550 1700
+Wire Wire Line
+	8550 1700 8800 1700
+$Comp
+L power:GND #PWR092
+U 1 1 64565F1F
+P 8150 2050
+F 0 "#PWR092" H 8150 1800 50  0001 C CNN
+F 1 "GND" H 8155 1877 50  0000 C CNN
+F 2 "" H 8150 2050 50  0001 C CNN
+F 3 "" H 8150 2050 50  0001 C CNN
+	1    8150 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1800 8150 2000
+Wire Wire Line
+	8550 2000 8150 2000
+Connection ~ 8150 2000
+Wire Wire Line
+	8150 2000 8150 2050
+Wire Wire Line
+	7550 1900 7550 2000
+Wire Wire Line
+	7550 1300 7550 1200
+Wire Wire Line
+	7550 1200 6950 1200
+Wire Wire Line
+	6950 1200 6950 2000
+Wire Wire Line
+	6950 2000 7550 2000
+Connection ~ 7550 2000
+Wire Wire Line
+	7550 2000 8150 2000
+Text Notes 8400 1150 2    98   ~ 0
+Top Speaker
+Text Notes 2550 1050 2    98   ~ 0
+Extra Mic Pins
+$Comp
+L Device:Speaker LS2
+U 1 1 645860C9
+P 9000 3600
+F 0 "LS2" H 9200 3600 50  0000 L CNN
+F 1 "Speaker" H 9200 3550 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal" H 9000 3400 50  0001 C CNN
+F 3 "~" H 8990 3550 50  0001 C CNN
+	1    9000 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 7250 3550 0    50   Input ~ 0
+SPK_P
+Text HLabel 7250 3750 0    50   Input ~ 0
+SPK_N
+$Comp
+L Device:C_Small C89
+U 1 1 645860D1
+P 7550 3450
+F 0 "C89" H 7642 3496 50  0000 L CNN
+F 1 "33pF" H 7642 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 3450 50  0001 C CNN
+F 3 "~" H 7550 3450 50  0001 C CNN
+F 4 "C1663" H 7550 3450 50  0001 C CNN "LCSC Part #"
+	1    7550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C90
+U 1 1 645860D7
+P 7550 3650
+F 0 "C90" H 7642 3696 50  0000 L CNN
+F 1 "100pF" H 7642 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 3650 50  0001 C CNN
+F 3 "~" H 7550 3650 50  0001 C CNN
+F 4 "C14858" H 7550 3650 50  0001 C CNN "LCSC Part #"
+	1    7550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C91
+U 1 1 645860DD
+P 7550 3850
+F 0 "C91" H 7642 3896 50  0000 L CNN
+F 1 "33pF" H 7642 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 3850 50  0001 C CNN
+F 3 "~" H 7550 3850 50  0001 C CNN
+F 4 "C1663" H 7550 3850 50  0001 C CNN "LCSC Part #"
+	1    7550 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3750 7250 3750
+Connection ~ 7550 3750
+Wire Wire Line
+	7550 3550 7250 3550
+Connection ~ 7550 3550
+$Comp
+L Device:D_TVS D24
+U 1 1 645860E7
+P 8150 3700
+F 0 "D24" V 8196 3621 50  0000 R CNN
+F 1 "D_TVS" V 8105 3621 50  0000 R CNN
+F 2 "" H 8150 3700 50  0001 C CNN
+F 3 "~" H 8150 3700 50  0001 C CNN
+	1    8150 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:D_TVS D26
+U 1 1 645860ED
+P 8550 3900
+F 0 "D26" V 8596 3821 50  0000 R CNN
+F 1 "D_TVS" V 8505 3821 50  0000 R CNN
+F 2 "" H 8550 3900 50  0001 C CNN
+F 3 "~" H 8550 3900 50  0001 C CNN
+	1    8550 3900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8800 3600 8800 3550
+Wire Wire Line
+	8800 3550 8150 3550
+Connection ~ 8150 3550
+Wire Wire Line
+	8150 3550 7550 3550
+Wire Wire Line
+	7550 3750 8550 3750
+Wire Wire Line
+	8800 3750 8800 3700
+Connection ~ 8550 3750
+Wire Wire Line
+	8550 3750 8800 3750
+$Comp
+L power:GND #PWR093
+U 1 1 645860FB
+P 8150 4100
+F 0 "#PWR093" H 8150 3850 50  0001 C CNN
+F 1 "GND" H 8155 3927 50  0000 C CNN
+F 2 "" H 8150 4100 50  0001 C CNN
+F 3 "" H 8150 4100 50  0001 C CNN
+	1    8150 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3850 8150 4050
+Wire Wire Line
+	8550 4050 8150 4050
+Connection ~ 8150 4050
+Wire Wire Line
+	8150 4050 8150 4100
+Wire Wire Line
+	7550 3950 7550 4050
+Wire Wire Line
+	7550 3350 7550 3250
+Wire Wire Line
+	7550 3250 6950 3250
+Wire Wire Line
+	6950 3250 6950 4050
+Wire Wire Line
+	6950 4050 7550 4050
+Connection ~ 7550 4050
+Wire Wire Line
+	7550 4050 8150 4050
+Text Notes 8400 3200 2    98   ~ 0
+Loud Speaker
 $EndSCHEMATC

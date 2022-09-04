@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name custom)(type Legacy)(uri ${KIPRJMOD}/libs/custom.lib)(options "")(descr ""))
+  (lib (name FH26W-25S-0.3SHW_60_)(type Legacy)(uri "${SNAP_EDA}/SnapEDA Library/FH26W-25S-0.3SHW_60_.lib")(options "")(descr ""))
+  (lib (name 0x0A-rescue)(type Legacy)(uri ${KIPRJMOD}/0x0A-rescue.lib)(options "")(descr ""))
+  (lib (name TF12S-6S-0.5SH_800_)(type Legacy)(uri "${SNAP_EDA}/SnapEDA Library/TF12S-6S-0.5SH_800_.lib")(options "")(descr ""))
 )
